@@ -134,6 +134,44 @@ Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, 
 ## Image Adversarial Patch Attack  
 
 
++ Tracking Multiple Objects Outside the Line of Sight Using Speckle Imaging.  
+Brandon M. Smith, Matthew O'Toole, Mohit Gupta  
+[[paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Smith_Tracking_Multiple_Objects_CVPR_2018_paper.pdf)] [[code]()]
 
-dddd
+## ICCV 2017
 
++ Tracking the Untrackable: Learning to Track Multiple Cues With Long-Term Dependencies.  
+Amir Sadeghian, Alexandre Alahi, Silvio Savarese  
+[[paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Sadeghian_Tracking_the_Untrackable_ICCV_2017_paper.pdf)] [[code]()] 
+
++ Non-Markovian Globally Consistent Multi-Object Tracking.  
+Andrii Maksai, Xinchao Wang, Francois Fleuret, Pascal Fua  
+[[paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Maksai_Non-Markovian_Globally_Consistent_ICCV_2017_paper.pdf)] [[code]()] 
+
++ Online Multi-Object Tracking Using CNN-Based Single Object Tracker With Spatial-Temporal Attention Mechanism.  
+Qi Chu, Wanli Ouyang, Hongsheng Li, Xiaogang Wang, Bin Liu, Nenghai Yu  
+[[paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Chu_Online_Multi-Object_Tracking_ICCV_2017_paper.pdf)] [[code]()] 
+
+## CVPR 2017
+
++ Multiple People Tracking by Lifted Multicut and Person Re-Identification.  
+Siyu Tang, Mykhaylo Andriluka, Bjoern Andres, Bernt Schiele  
+[[paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Tang_Multiple_People_Tracking_CVPR_2017_paper.pdf)] [[code](http://mpi-inf.mpg.de/multicut_tracking)]  
+
++ Multi-Object Tracking With Quadruplet Convolutional Neural Networks.  
+Jeany Son, Mooyeol Baek, Minsu Cho, Bohyung Han  
+[[paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Son_Multi-Object_Tracking_With_CVPR_2017_paper.pdf)] [[code]()]  
+
++ Deep Network Flow for Multi-Object Tracking.  
+Samuel Schulter, Paul Vernaza, Wongun Choi, Manmohan Chandraker  
+[[paper](https://arxiv.org/abs/1706.08482)] [[code]()]  
+
+## Datasets
+
+<!-- + Reducing the Annotation Effort for Video Object Segmentation Datasets. (WACV 2021)  
+Paul Voigtlaender, Lishu Luo, Chun Yuan, Yong Jiang, Bastian Leibe.  
+[[paper](https://arxiv.org/pdf/2011.01142.pdf)] [[project](https://www.vision.rwth-aachen.de/page/taovos)]
+-->
++ **VisDrone**: "Vision Meets Drones: Past, Present and Future". arXiv 2020.  
+Pengfei Zhu, Longyin Wen, Dawei Du, Xiao Bian, Qinghua Hu, Haibin Ling   
+[[paper](https://arxiv.org/abs/2001.06303)] [[project](http://aiskyeye.com/)] 
