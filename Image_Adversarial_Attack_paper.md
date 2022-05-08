@@ -4,7 +4,6 @@
 
 ### ArXiv 2022
 
-
 + Fast Gradient Non-sign Methods  
 Yaya Cheng, Jingkuan Song, Xiaosu Zhu, Qilong Zhang, Lianli Gao, Heng Tao Shen  
 [[paper](https://arxiv.org/pdf/2110.12734.pdf)] [[code](https://github.com/yaya-cheng/FGNM)]  
@@ -14,7 +13,6 @@ YGuoqiu Wang, Xingxing Wei, Huanqian Yan
 [[paper](https://arxiv.org/pdf/2203.13479.pdf)] [[code](https://github.com/yaya-cheng/FGNM)]
 
 ### CVPR 2021
-
 
 + Improving the Transferability of Adversarial Samples With Adversarial Transformations  
 Weibin Wu, Yuxin Su, Michael R. Lyu, Irwin King  
@@ -30,7 +28,6 @@ Ziwen He, Wei Wang, Jing Dong, Tieniu Tan
 
 ### ICLR 2020
 
-
 + NESTEROV ACCELERATED GRADIENT AND SCALE INVARIANCE FOR ADVERSARIAL ATTACKS  
 Jiadong Lin, Chuanbiao Song, Kun He, Liwei Wang, John E. Hopcroft  
 [[paper](https://arxiv.org/pdf/1908.06281.pdf)] [[code](https://github.com/JHL-HUST/SI-NI-FGSM)]
@@ -41,13 +38,11 @@ Dongxian Wu, Yisen Wang, Shu-Tao Xia, James Bailey, Xingjun Ma
 
 ### NIPS 2019
 
-
 + Adversarial Examples Are Not Bugs, They Are Features  
 Andrew Ilyas, Shibani Santurkar, Dimitris Tsipras, Logan Engstrom, Brandon Tran, Aleksander Madry  
 [[paper](https://arxiv.org/pdf/1905.02175.pdf)]
 
 ### CVPR 2019
-
 
 + One pixel attack for fooling deep neural networks (One_Pixel_Attack)  
 Jiawei Su, Danilo Vasconcellos Vargas, Sakurai Kouichi  
@@ -63,13 +58,11 @@ Yinpeng Dong, Tianyu Pang, Hang Su, Jun Zhu
 
 ### CVPR 2018
 
-
 + Boosting Adversarial Attacks with Momentum (MI-FGSM)  
 Yinpeng Dong, Fangzhou Liao, Tianyu Pang, Hang Su, Jun Zhu, Xiaolin Hu, Jianguo Li  
 [[paper](https://arxiv.org/pdf/1705.07204.pdf)] [[code](https://github.com/dongyp13/Non-Targeted-Adversarial-Attacks)]  
 
 ### ICLR 2018
-
 
 + Ensemble Adversarial Training: Attacks and Defenses  
 Florian Tramèr, Alexey Kurakin, Nicolas Papernot, Ian Goodfellow, Dan Boneh, Patrick McDaniel  
@@ -84,13 +77,11 @@ Chuan Guo, Mayank Rana, Moustapha Cisse, Laurens van der Maaten
 
 ### ICLR 2017
 
-
 + ADVERSARIAL EXAMPLES IN THE PHYSICAL WORLD (BIM)  
 Alexey Kurakin, Ian Goodfellow, Samy Bengio  
 [[paper](https://arxiv.org/pdf/1607.02533.pdf)] [[code](https://adversarial-attacks-pytorch.readthedocs.io/en/latest/attacks.html#module-torchattacks.attacks.bim)]
 
 ### S&P 2017
-
 
 + Towards Evaluating the Robustness of Neural Networks (C&W)  
 Nicholas Carlini, David Wagner  
@@ -98,13 +89,11 @@ Nicholas Carlini, David Wagner
 
 ### CVPR 2017
 
-
 + Universal adversarial perturbations (UAP)  
 S. Moosavi-Dezfooli*, A. Fawzi*, O. Fawzi, P. Frossard  
 [[paper](https://arxiv.org/pdf/1610.08401.pdf)] [[code](https://github.com/LTS4/universal)]
 
 ### CVPR 2016
-
 
 + DeepFool: a simple and accurate method to fool deep neural networks (Deepfool)  
 Seyed-Mohsen Moosavi-Dezfooli, Alhussein Fawzi, Pascal Frossard  
@@ -112,20 +101,17 @@ Seyed-Mohsen Moosavi-Dezfooli, Alhussein Fawzi, Pascal Frossard
 
 ### S&P 2016
 
-
 + The limitations of deep learning in adversarial settings (JSMA)  
 Papernot, Nicolas, Patrick McDaniel, Somesh Jha, Matt Fredrikson, Z. Berkay Celik, and Ananthram Swami  
 [[paper](https://arxiv.org/pdf/1511.07528.pdf)]
 
 ### ICLR 2015
 
-
 + EXPLAINING AND HARNESSING ADVERSARIAL EXAMPLES (FGSM)  
 Ian J. Goodfellow, Jonathon Shlens & Christian Szegedy  
 [[paper](https://arxiv.org/pdf/1412.6572.pdf)] [[code](https://adversarial-attacks-pytorch.readthedocs.io/en/latest/attacks.html#module-torchattacks.attacks.fgsm)]
 
 ### ICLR 2014
-
 
 + Intriguing properties of neural networks (L-bfgs)  
 Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, Rob Fergus  
@@ -136,37 +122,31 @@ Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, 
 ## Image Adversarial Patch Attack
 
 
-+ Tracking Multiple Objects Outside the Line of Sight Using Speckle Imaging.  
-Brandon M. Smith, Matthew O'Toole, Mohit Gupta  
-[[paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Smith_Tracking_Multiple_Objects_CVPR_2018_paper.pdf)] [[code]()]
+### ACM MM 2020
 
-### ICCV 2017
++ Adv-watermark: A Novel Watermark Perturbation for Adversarial Examples  
+Xiaojun Jia, Xingxing Wei, Xiaochun Cao, Xiaoguang Han  
+[[paper](https://arxiv.org/pdf/2008.01919.pdf)] [[code](https://github.com/jiaxiaojunQAQ/Adv-watermark)] 
 
-+ Tracking the Untrackable: Learning to Track Multiple Cues With Long-Term Dependencies.  
-Amir Sadeghian, Alexandre Alahi, Silvio Savarese  
-[[paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Sadeghian_Tracking_the_Untrackable_ICCV_2017_paper.pdf)] [[code]()] 
 
-+ Non-Markovian Globally Consistent Multi-Object Tracking.  
-Andrii Maksai, Xinchao Wang, Francois Fleuret, Pascal Fua  
-[[paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Maksai_Non-Markovian_Globally_Consistent_ICCV_2017_paper.pdf)] [[code]()] 
+## ECCV 2020
 
-+ Online Multi-Object Tracking Using CNN-Based Single Object Tracker With Spatial-Temporal Attention Mechanism.  
-Qi Chu, Wanli Ouyang, Hongsheng Li, Xiaogang Wang, Bin Liu, Nenghai Yu  
-[[paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Chu_Online_Multi-Object_Tracking_ICCV_2017_paper.pdf)] [[code]()] 
++ Adversarial Training against Location-Optimized Adversarial Patches  
+Sukrut Rao, David Stutz, Bernt Schiele  
+[[paper](https://arxiv.org/pdf/2005.02313.pdf)] [[code](https://github.com/sukrutrao/Adversarial-Patch-Training)]  
 
-### CVPR 2017
+## ICML 2018
 
-+ Multiple People Tracking by Lifted Multicut and Person Re-Identification.  
-Siyu Tang, Mykhaylo Andriluka, Bjoern Andres, Bernt Schiele  
-[[paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Tang_Multiple_People_Tracking_CVPR_2017_paper.pdf)] [[code](http://mpi-inf.mpg.de/multicut_tracking)]  
++ LaVAN: Localized and Visible Adversarial Noise  
+Danny Karmon, Daniel Zoran, Yoav Goldberg  
+[[paper](https://arxiv.org/pdf/1801.02608.pdf)] [[code]()]  
 
-+ Multi-Object Tracking With Quadruplet Convolutional Neural Networks.  
-Jeany Son, Mooyeol Baek, Minsu Cho, Bohyung Han  
-[[paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Son_Multi-Object_Tracking_With_CVPR_2017_paper.pdf)] [[code]()]  
+## NIPS 2017
 
-+ Deep Network Flow for Multi-Object Tracking.  
-Samuel Schulter, Paul Vernaza, Wongun Choi, Manmohan Chandraker  
-[[paper](https://arxiv.org/abs/1706.08482)] [[code]()]  
++ Adversarial Patch  
+Tom B. Brown, Dandelion Mané, , Aurko Roy, Martín Abadi, Justin Gilmer  
+[[paper](https://arxiv.org/pdf/1712.09665.pdf)] [[code]()]  
+
 
 ## Datasets
 
