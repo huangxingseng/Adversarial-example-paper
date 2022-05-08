@@ -9,6 +9,6 @@ Sai Saketh Rambhatla, Saksham Suri, Rama Chellappa, Abhinav Shrivastava
 [[paper](https://arxiv.org/pdf/2201.04620)] 
 
 ### CVPR 2022  
-+ Sylph: A Hypernetwork Framework for Incremental Few-shot Object Detection  
-Li Yin, Juan M Perez-Rua, Kevin J Liang  
-[[paper](https://arxiv.org/pdf/2203.13903.pdf)] 
++ EXPLAINING AND HARNESSING ADVERSARIAL EXAMPLES  
+Ian J. Goodfellow, Jonathon Shlens & Christian Szegedy  
+[[paper](https://arxiv.org/pdf/1412.6572.pdf)] 
