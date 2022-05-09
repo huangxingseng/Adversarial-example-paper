@@ -16,7 +16,7 @@ Yaya Cheng, Jingkuan Song, Xiaosu Zhu, Qilong Zhang, Lianli Gao, Heng Tao Shen
 [[paper](https://arxiv.org/pdf/2110.12734.pdf)] [[code](https://github.com/yaya-cheng/FGNM)]  
 
 + Improving Adversarial Transferability with Spatial Momentum  
-YGuoqiu Wang, Xingxing Wei, Huanqian Yan  
+Guoqiu Wang, Xingxing Wei, Huanqian Yan  
 [[paper](https://arxiv.org/pdf/2203.13479.pdf)] [[code](https://github.com/yaya-cheng/FGNM)]
 
 ### CVPR 2021
