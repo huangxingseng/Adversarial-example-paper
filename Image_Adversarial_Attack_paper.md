@@ -157,10 +157,4 @@ Tom B. Brown, Dandelion Mané, , Aurko Roy, Martín Abadi, Justin Gilmer
 
 ## Datasets
 
-<!-- + Reducing the Annotation Effort for Video Object Segmentation Datasets. (WACV 2021)  
-Paul Voigtlaender, Lishu Luo, Chun Yuan, Yong Jiang, Bastian Leibe.  
-[[paper](https://arxiv.org/pdf/2011.01142.pdf)] [[project](https://www.vision.rwth-aachen.de/page/taovos)]
--->
-+ **VisDrone**: "Vision Meets Drones: Past, Present and Future". arXiv 2020.  
-Pengfei Zhu, Longyin Wen, Dawei Du, Xiao Bian, Qinghua Hu, Haibin Ling   
-[[paper](https://arxiv.org/abs/2001.06303)] [[project](http://aiskyeye.com/)] 
+
