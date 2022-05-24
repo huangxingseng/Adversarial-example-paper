@@ -8,11 +8,58 @@
 ---
 ## <span id="jump1">Video_Adversarial_Example_Attack</span>
 
+
+### arxiv 2022
+
++ Transferable Physical Attack against Object Detection with Separable Attention  
+Yu Zhang, Zhiqiang Gong, Yichuang Zhang, YongQian Li, Kangcheng Bin, Jiahao Qi, Wei Xue, Ping Zhong  
+[[paper](https://arxiv.org/pdf/2205.09592.pdf)]  
+
++ Focused Adversarial Attacks  
+Thomas Cilloni, Charles Walter, Charles Fleming  
+[[paper](https://arxiv.org/pdf/2205.09624.pdf)] [[code]()]
+
++ Defending Against Person Hiding Adversarial Patch Attack with a Universal White Frame   
+Youngjoon Yu, Hong Joo Lee, Hakmin Lee, Yong Man Ro  
+[[paper](https://arxiv.org/pdf/2204.13004.pdf)] [[code]()]  
+
++ SkeleVision: Towards Adversarial Resiliency of Person Tracking with Multi-Task Learning   
+YNilaksh Das, Sheng-Yun Peng, Duen Horng Chau  
+[[paper](https://arxiv.org/pdf/2204.00734.pdf)] [[code](https://github.com/nilakshdas/skelevision)]  
+
++ Using Frequency Attention to Make Adversarial Patch Powerful Against Person Detector   
+Xiaochun Lei, Chang Lu, Zetao Jiang, Zhaoting Gong, Xiang Cai, Linjun Lu  
+[[paper](https://arxiv.org/pdf/2205.04638.pdf)] [[code]()]
+
+### ICLR 2022
+
++ Few-Shot Backdoor Attacks on Visual Object Tracking  
+Yiming Li, Haoxiang Zhong, Xingjun Ma, Yong Jiang, Shu-Tao Xia  
+[[paper](https://arxiv.org/pdf/2201.13178.pdf)] [[code](https://github.com/hxzhong1997/fsba)]  
+
+### ICASSP 2022
+
++ Efficient universal shuffle attack for visual object tracking  
+Siao Liu, Zhaoyu Chen, Wei Li, Jiwei Zhu, Jiafeng Wang, Wenqiang Zhang, Zhongxue Gan  
+[[paper](https://arxiv.org/pdf/2203.06898.pdf)] [[code]()]  
+
+### CVPR 2022
+
++ Adversarial Texture for Fooling Person Detectors in the Physical World  
+Zhanhao Hu, Siyuan Huang, Xiaopei Zhu, Xiaolin Hu, Fuchun Sun, Bo Zhang  
+[[paper](https://arxiv.org/pdf/2203.03373.pdf)] [[code]()]  
+
 ### AAAI 2022
 
 + Context-Aware Transfer Attacks for Object Detection  
 Zikui Cai, Xinxin Xie, Shasha Li, Mingjun Yin, Chengyu Song, Srikanth V. Krishnamurthy, Amit K. Roy-Chowdhury, M. Salman Asif  
-[[paper](https://arxiv.org/pdf/2112.03223.pdf)] [[code]()]  
+[[paper](https://arxiv.org/pdf/2112.03223.pdf)] [[code](https://github.com/WhoTHU/Adversarial_Texture)]  
+
+### AAAI 2021
+
++ Fooling thermal infrared pedestrian detectors in real world using small bulbs  
+Xiaopei Zhu, Xiao Li, Jianmin Li, Zheyao Wang, Xiaolin Hu  
+[[paper](https://arxiv.org/pdf/2101.08154.pdf)] [[code]()]  
 
 ### ICCV 2021
 
@@ -34,7 +81,7 @@ Hao Huang, Yongtao Wang, Zhaoyu Chen, Zhi Tang, Wenqiang Zhang, Kai-Kuang Ma
 
 + Transferable Adversarial Examples for Anchor Free Object Detection  
 Quanyu Liao, Xin Wang, Bin Kong, Siwei Lyu, Bin Zhu, Youbing Yin, Qi Song, Xi Wu  
-[[paper](https://arxiv.org/pdf/2106.01618.pdf)] [[code](https://github.com/VDIGPKU/RPAttack)] 
+[[paper](https://arxiv.org/pdf/2106.01618.pdf)] [[code]()] 
 
 ### ACM MM 2021
 
@@ -84,6 +131,10 @@ Zhipeng Wei, Jingjing Chen, Xingxing Wei, Linxi Jiang, Tat-Seng Chua, Fengfeng Z
 Xingxing Wei, Jun Zhu, Hang Su  
 [[paper](https://arxiv.org/pdf/2203.06616.pdf)] [[code](https://github.com/yanhui002/video_adv)]
 
++ DPatch: An Adversarial Patch Attack on Object Detectors  
+Xin Liu, Huanrui Yang, Ziwei Liu, Linghao Song, Hai Li, Yiran Chen    
+[[paper](https://arxiv.org/pdf/1806.02299.pdf)] [[code](https://github.com/veralauee/DPatch)]
+
 ### IJCAI 2019
 
 + Transferable Adversarial Attacks for Image and Video Object Detection  
@@ -102,6 +153,18 @@ Simen Thys, Wiebe Van Ranst, Toon Goedemé
 Yuezun Li, Xiao Bian, Ming-ching Chang, Siwei Lyu1  
 [[paper](https://cse.buffalo.edu/~siweilyu/papers/bmvc19.pdf)] [[code](https://gitlab.com/EAVISE/adversarial-yolo)]  
 
+### ICML 2019
+
++ On Physical Adversarial Patches for Object Detection  
+Mark Lee, Zico Kolter  
+[[paper](https://arxiv.org/pdf/1906.11897.pdf)] [[code]()]  
+
+### arxiv 2019  
+
++ On Physical Adversarial Patches for Object Detection  
+Mark Lee, Zico Kolter  
+[[paper](https://arxiv.org/pdf/1906.11897.pdf)] [[code](https://github.com/erasaur/adversarial-patch-object-detection)]  
+
 ### USENIX Security 2018
 
 + Physical Adversarial Examples for Object Detectors  
@@ -112,7 +175,7 @@ Kevin Eykholt, Ivan Evtimov, Earlence Fernandes, Bo Li, Amir Rahmati, Florian Tr
 
 + Robust Physical-World Attacks on Deep Learning Models  
 Kevin Eykholt, Ivan Evtimov, Earlence Fernandes, Bo Li, Amir Rahmati, Chaowei Xiao, Atul Prakash, Tadayoshi Kohno, Dawn Song  
-[[paper](hhttps://arxiv.org/pdf/1707.08945.pdf)] [[code](https://gitlab.com/EAVISE/adversarial-yolo)]  
+[[paper](https://arxiv.org/pdf/1707.08945.pdf)] [[code](https://gitlab.com/EAVISE/adversarial-yolo)]  
 
 ### ECML-PKDD 2018（CCF B）
 
