@@ -1,12 +1,12 @@
 
 
-# Object_Detection_Adversarial Attack
+# Video Adversarial Attack
 ----
-1.[Object_Detection_Adversarial_Example_Attack](#jump1)   
+1.[Video_Adversarial_Example_Attack](#jump1)   
 
 
 ---
-## <span id="jump1">Object_Detection_Adversarial_Example_Attack</span>
+## <span id="jump1">Video_Adversarial_Example_Attack</span>
 
 
 ### arxiv 2022
@@ -14,10 +14,23 @@
 + Transferable Physical Attack against Object Detection with Separable Attention  
 Yu Zhang, Zhiqiang Gong, Yichuang Zhang, YongQian Li, Kangcheng Bin, Jiahao Qi, Wei Xue, Ping Zhong  
 [[paper](https://arxiv.org/pdf/2205.09592.pdf)]  
+  <details>
+    <summary>Notes</summary>
+    - Key points:
+         - With randomly sampled partial observations (25%-50%), the ViT model pretrained using MIM works well for object detection.
+         - Using the features of both ViT and CNNs to generate a feature pyramid for detection.
+    - Performance:
+         - 51.5 AP on COCO val2017   
+    </details>
 
 + Focused Adversarial Attacks  
 Thomas Cilloni, Charles Walter, Charles Fleming  
 [[paper](https://arxiv.org/pdf/2205.09624.pdf)] [[code]()]
+  <details>
+    <summary>Notes</summary>
+
+    </details>
+
 
 + Defending Against Person Hiding Adversarial Patch Attack with a Universal White Frame   
 Youngjoon Yu, Hong Joo Lee, Hakmin Lee, Yong Man Ro  
