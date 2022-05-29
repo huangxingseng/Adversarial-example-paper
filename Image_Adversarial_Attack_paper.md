@@ -75,7 +75,27 @@ Thibault Maho, Teddy Furon, Erwan Le Merrer
 
 + Natural Adversarial Examples  
 Dan Hendrycks, Kevin Zhao, Steven Basart, Jacob Steinhardt, Dawn Song  
-[[paper](https://arxiv.org/pdf/1907.07174.pdf)] [[code](https://github.com/hendrycks/natural-adv-examples)]
+[[paper](https://arxiv.org/pdf/1907.07174.pdf)] [[code](https://github.com/hendrycks/natural-adv-examples)]  
+
++ Delving into Data: Effectively Substitute Training for Black-box Attack  
+Wenxuan Wang, Bangjie Yin, Taiping Yao, Li Zhang, Yanwei Fu, Shouhong Ding, Jilin Li, Feiyue Huang, Xiangyang Xue  
+[[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Delving_into_Data_Effectively_Substitute_Training_for_Black-box_Attack_CVPR_2021_paper.pdf)] [[code](https://github.com/hendrycks/natural-adv-examples)]  
+
++ You See What I Want You to See: Exploring Targeted Black-Box Transferability Attack for Hash-based Image Retrieval Systems  
+Yanru Xiao and Cong Wang  
+[[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Xiao_You_See_What_I_Want_You_To_See_Exploring_Targeted_CVPR_2021_paper.pdf)] [[code](https://github.com/hendrycks/natural-adv-examples)]  
+
++ Adversarial Laser Beam: Effective Physical-World Attack to DNNs in a Blink  
+Ranjie Duan, Xiaofeng Mao, A. K. Qin, Yun Yang, Yuefeng Chen, Shaokai Ye, Yuan He  
+[[paper](https://arxiv.org/pdf/2103.06504)] [[code](https://github.com/RjDuan/Advlight)]  
+
++ Adversarial Robustness Across Representation Spaces  
+Pranjal Awasthi, George Yu, Chun-Sung Ferng, Andrew Tomkins, Da-Cheng Juan  
+[[paper](https://arxiv.org/pdf/2012.00802)] [[code](https://github.com/tensorflow/neural-structured-learning/tree/master/research/multi_representation_adversary)] 
+
++ Robust and Accurate Object Detection via Adversarial Learning  
+Xiangning Chen, Cihang Xie, Mingxing Tan, Li Zhang, Cho-Jui Hsieh, Boqing Gong  
+[[paper](https://arxiv.org/pdf/2103.13886)] [[code](https://github.com/google/automl)] 
 
 ### IJCAI 2021
 
@@ -117,6 +137,53 @@ Ahmed Abusnaina, Yuhang Wu, Sunpreet Arora, Yizhen Wang, Fei Wang, Hao Yang, Dav
 Zhibo Wang, Hengchang Guo, Zhifei Zhang, Wenxin Liu, Zhan Qin, Kui Ren  
 [[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Feature_Importance-Aware_Transferable_Adversarial_Attacks_ICCV_2021_paper.pdf)] [[code](https://github.com/hcguoO0/FIA)]
 
+
+### ECCV 2020
+
++ Manifold Projection for Adversarial Defense on Face Recognition (Defense)  
+Jianli Zhou, Chao Liang, Jun Chen  
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123750290.pdf)] [[code](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123750290.pdf)]
+
++ Defense Against Adversarial Attacks via Controlling Gradient Leaking on Embedded Manifolds (Defense)  
+Yueru Li, Shuyu Cheng, Hang Su, Jun Zhu  
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730749.pdf)] [[code]()]
+
++ Improving Adversarial Robustness by Enforcing Local and Global Compactness (Defense)  
+Anh Bui, Trung Le, He Zhao, Paul Montague, Olivier deVel, Tamas Abraham, Dinh Phung  
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123720205.pdf)] [[code]()]
+
++ Improving Query Efficiency of Black-box Adversarial Attack  
+Yang Bai, Yuyuan Zeng, Yong Jiang, Yisen Wang, Shu-Tao Xia, Weiwei Guo  
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700103.pdf)] [[code](https://github.com/Sandy-Zeng/NPAttack)]
+
++ Adversarial Training with Bi-directional Likelihood Regularization for Visual Classification  
+Weitao Wan, Jiansheng Chen, Ming-Hsuan Yang  
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123690766.pdf)] [[code]()]
+
++ Square Attack: a query-efficient black-box adversarial attack via random search  
+Maksym Andriushchenko, Francesco Croce  
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680477.pdf)] [[code](https://github.com/max-andr/square-attack)]
+
++ Context-Aware RCNN: A Baseline for Action Detection in Videos  
+Jianchao Wu, Zhanghui Kuang, Limin Wang, Wayne Zhang, Gangshan Wu  
+[[paper](https://arxiv.org/abs/2007.09861)] [[code](https://github.com/MCG-NJU/CRCNN-Action)]
+
++ Open-set Adversarial Defense (Defense)  
+Rui Shao, Pramuditha Perera, Pong C. Yuen, Vishal M. Patel  
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620664.pdf)] [[code](https://github.com/rshaojimmy/ECCV2020-OSAD)]
+
++ Boosting Decision-based Black-box Adversarial Attacks with Random Sign Flip  
+Weilun Chen, Zhaoxiang Zhang, Xiaolin Hu, Baoyuan Wu  
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600273.pdf)] [[code]()]
+
++ Bias-based Universal Adversarial Patch Attack for Automatic Check-out  
+Aishan Liu, Jiakai Wang, Xianglong Liu, Bowen Cao, Chongzhi Zhang, Hang Yu  
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580392.pdf)] [[code]()]
+
++ Improved Adversarial Training via Learned Optimizer (Defense)  
+Yuanhao Xiong, Cho-Jui Hsieh 
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530086.pdf)] [[code]()]
+
 ### ICLR 2020
 
 + NESTEROV ACCELERATED GRADIENT AND SCALE INVARIANCE FOR ADVERSARIAL ATTACKS  
@@ -151,7 +218,13 @@ Yinpeng Dong, Tianyu Pang, Hang Su, Jun Zhu
 Apostolos Modas, Seyed-Mohsen Moosavi-Dezfooli, Pascal Frossard Ecole Polytechnique Federale de Lausanne  
 [[paper](https://arxiv.org/pdf/1811.02248.pdf)] [[code](https://github.com/LTS4/SparseFool)]
 
++ Improving the Transferability of Adversarial Examples with Resized-Diverse-Inputs, Diversity-Ensemble and Region Fitting  
+Junhua Zou, Zhisong Pan, Junyang Qiu, Xin Liu, Ting Rui, Wei Li  
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670562.pdf)] [[code](https://github.com/LTS4/SparseFool)]
 
++ Sparse Adversarial Attack via Perturbation Factorization  
+Yanbo Fan, Baoyuan Wu, Tuanhui Li, Yong Zhang, Mingyang Li, Zhifeng Li, Yujiu Yang   
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670035.pdf)] [[code](https://github.com/wubaoyuan/Sparse-Adversarial-Attack)]
 
 ### CVPR 2018
 
