@@ -16,11 +16,7 @@ Yu Zhang, Zhiqiang Gong, Yichuang Zhang, YongQian Li, Kangcheng Bin, Jiahao Qi, 
 [[paper](https://arxiv.org/pdf/2205.09592.pdf)]  
   <details>
     <summary>Notes</summary>
-    - Key points:
-         - With randomly sampled partial observations (25%-50%), the ViT model pretrained using MIM works well for object detection.
-         - Using the features of both ViT and CNNs to generate a feature pyramid for detection.
-    - Performance:
-         - 51.5 AP on COCO val2017   
+  
     </details>
 
 + Focused Adversarial Attacks  
