@@ -16,7 +16,11 @@ Yu Zhang, Zhiqiang Gong, Yichuang Zhang, YongQian Li, Kangcheng Bin, Jiahao Qi, 
 [[paper](https://arxiv.org/pdf/2205.09592.pdf)]  
   <details>
     <summary>Notes</summary>
-  
+    - Key points:
+         - With randomly sampled partial observations (25%-50%), the ViT model pretrained using MIM works well for object detection.
+         - Using the features of both ViT and CNNs to generate a feature pyramid for detection.
+    - Performance:
+         - 51.5 AP on COCO val2017   
     </details>
 
 + Focused Adversarial Attacks  
@@ -64,6 +68,7 @@ Siao Liu, Zhaoyu Chen, Wei Li, Jiwei Zhu, Jiafeng Wang, Wenqiang Zhang, Zhongxue
 + Adversarial Texture for Fooling Person Detectors in the Physical World  
 Zhanhao Hu, Siyuan Huang, Xiaopei Zhu, Xiaolin Hu, Fuchun Sun, Bo Zhang  
 [[paper](https://arxiv.org/pdf/2203.03373.pdf)] [[code]()]  
+
 
 ### AAAI 2022
 
@@ -125,6 +130,24 @@ Quanyu Liao, Xin Wang, Bin Kong, Siwei Lyu, Bin Zhu, Youbing Yin, Qi Song, Xi Wu
 Huanqian Yan, Xingxing Wei  
 [[paper](https://dl.acm.org/doi/pdf/10.1145/3474085.3475395)] [[code](https://github.com/FenHua/EARL)]
 
+### CVPR 2021
+
++ IoU Attack: Towards Temporally Coherent Black-Box Adversarial Attack for Visual Object Tracking  
+Shuai Jia, Yibing Song, Chao Ma, Xiaokang Yang  
+[[paper](https://arxiv.org/pdf/2103.14938.pdf)] [[code](https://github.com/VISION-SJTU/IoUattack)]  
+
++ Dual Attention Suppression Attack: Generate Adversarial Camouflage in Physical World  
+Jiakai Wang, Aishan Liu, Zixin Yin, Shunchang Liu, Shiyu Tang, Xianglong Liu  
+[[paper](https://arxiv.org/pdf/2103.01050.pdf)] [[code](https://github.com/nlsde-safety-team/DualAttentionAttack)]  
+
++ The Translucent Patch: A Physical and Universal Attack on Object Detectors   
+Alon Zolfi, Moshe Kravchik, Yuval Elovici, Asaf Shabtai  
+[[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zolfi_The_Translucent_Patch_A_Physical_and_Universal_Attack_on_Object_CVPR_2021_paper.pdf)] [[code]()]  
+
++ VideoMoCo: Contrastive Video Representation Learning with Temporally Adversarial Examples  
+Tian Pan, Yibing Song, Tianyu Yang, Wenhao Jiang, Wei Liu   
+[[paper](https://arxiv.org/pdf/2103.05905)] [[code](https://github.com/tinapan-pt/VideoMoCo)]
+
 ### CVPR 2020
 
 + One-Shot Adversarial Attacks on Visual Tracking With Dual Attention  
@@ -148,6 +171,34 @@ Qing Guo, Xiaofei Xie, Felix Juefei-Xu, Lei Ma, Zhongguo Li, Wanli Xue, Wei Feng
 + Sparse Adversarial Attack via Perturbation Factorization  
 Yanbo Fan, Baoyuan Wu, Tuanhui Li, Yong Zhang, Mingyang Li, Zhifeng Li, Yujiu Yang  
 [[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670035.pdf)] [[code](https://github.com/wubaoyuan/Sparse-Adversarial-Attack)]  
+
++ Indirect Local Attacks for Context-aware Semantic Segmentation Networks  
+Krishna Kanth Nakka, Mathieu Salzmann  
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500596.pdf)] [[code](https://github.com/krishnakanthnakka/Indirectlocalattacks/)]  
+
++ Connecting the Dots: Detecting Adversarial Perturbations Using Context Inconsistency  
+Shasha Li, Shitong Zhu, Sudipta Paul  
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680392.pdf)] [[code]()]
+
++ APRICOT: A Dataset of Physical Adversarial Attacks on Object Detection  
+A. Braunegg, Amartya Chakraborty, Michael Krumdick, Nicole Lape  
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123660035.pdf)] [[code](https://apricot.mitre.org/)]
+
++ Robust Tracking against Adversarial Attacks  
+Shuai Jia, Chao Ma, Yibing Song, Xiaokang Yang  
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640069.pdf)] [[code](https://github.com/joshuajss/RTAA)]
+
++ Design and Interpretation of Universal Adversarial Patches in Face Detection  
+Xiao Yang, Fangyun Wei,  Hongyang Zhang, Jun Zhu   
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620171.pdf)] [[code]()]
+
++ Classes Matter: A Fine-grained Adversarial Approach to Cross-domain Semantic Segmentation  
+Haoran Wang, Tong Shen, Wei Zhang, Lingyu Duan, Tao Mei     
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590630.pdf)] [[code](https://github.com/JDAI-CV/FADA)]
+
++ Making an Invisibility Cloak: Real World Adversarial Attacks on Object Detectors  
+Zuxuan Wu, Ser-Nam Lim, Larry S. Davis, Tom Goldstein     
+[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490001.pdf)] [[code](https://github.com/JDAI-CV/FADA)]
 
 ### ICME 2020
 
