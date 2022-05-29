@@ -15,9 +15,45 @@
 Yaya Cheng, Jingkuan Song, Xiaosu Zhu, Qilong Zhang, Lianli Gao, Heng Tao Shen  
 [[paper](https://arxiv.org/pdf/2110.12734.pdf)] [[code](https://github.com/yaya-cheng/FGNM)]  
 
++ Improving the Transferability of Adversarial Examples with Restructure Embedded Patches  
+Huipeng Zhou, Yu-an Tan, Yajie Wang, Haoran Lyu, Shangbo Wu, Yuanzhang Li  
+[[paper](https://arxiv.org/pdf/2204.12680.pdf)] [[code]()]  
+
 + Improving Adversarial Transferability with Spatial Momentum  
 Guoqiu Wang, Xingxing Wei, Huanqian Yan  
-[[paper](https://arxiv.org/pdf/2203.13479.pdf)] [[code](https://github.com/yaya-cheng/FGNM)]
+[[paper](https://arxiv.org/pdf/2203.13479.pdf)] [[code](https://github.com/yaya-cheng/FGNM)]  
+
++ Optimizing One-pixel Black-box Adversarial Attacks    
+Tianxun Zhou, Shubhankar Agrawal, Prateek Manocha  
+[[paper](https://arxiv.org/pdf/2205.02116.pdf)] [[code]()]
+
+### ICLR 2022
+
++ Patch-Fool: Are Vision Transformers Always Robust Against Adversarial Perturbations?  
+Yonggan Fu, Shunyao Zhang, Shang Wu, Cheng Wan, Yingyan Lin  
+[[paper](https://arxiv.org/pdf/2203.08392.pdf)] [[code](https://github.com/rice-eic/patch-fool)]
+
+### CVPR 2022
+
++ LAS-AT: Adversarial Training with Learnable Attack Strategy  
+Xiaojun Jia, Yong Zhang, Baoyuan Wu, Ke Ma, Jue Wang, Xiaochun Cao  
+[[paper](https://arxiv.org/pdf/2203.06616.pdf)] [[code](https://github.com/jiaxiaojunQAQ/LAS-AT)]
+
++ Boosting Black-Box Attack with Partially Transferred Conditional Adversarial Distribution  
+Yan Feng, Baoyuan Wu, Yanbo Fan, Li Liu, Zhifeng Li, Shutao Xia  
+[[paper](https://arxiv.org/pdf/2203.06616.pdf)] [[code](https://github.com/Kira0096/CGATTACK)]
+
++ Stochastic Variance Reduced Ensemble Adversarial Attack for Boosting the Adversarial Transferability  
+Yifeng Xiong, Jiadong Lin, Min Zhang, John E. Hopcroft, Kun He  
+[[paper](https://arxiv.org/pdf/2111.10752.pdf)] [[code](https://github.com/jhl-hust/svre)]  
+
++ Towards Practical Certifiable Patch Defense with Vision Transformer  
+Zhaoyu Chen, Bo Li, Jianghe Xu, Shuang Wu, Shouhong Ding, Wenqiang Zhang  
+[[paper](https://arxiv.org/pdf/2203.08519.pdf)] [[code]()]  
+
++ Improving the Transferability of Targeted Adversarial Examples through Object-Based Diverse Input  
+Junyoung Byun, Seungju Cho, Myung-Joon Kwon, Hee-Seon Kim, Changick Kim  
+[[paper](https://arxiv.org/pdf/2203.09123.pdf)] [[code](https://github.com/dreamflake/odi)]
 
 ### CVPR 2021
 
@@ -32,6 +68,54 @@ Xiaosen Wang, Kun He
 + Transferable Sparse Adversarial Attack  
 Ziwen He, Wei Wang, Jing Dong, Tieniu Tan  
 [[paper](https://arxiv.org/pdf/2105.14727.pdf)] [[code](https://github.com/shaguopohuaizhe/TSAA)]
+
++ SurFree: a fast surrogate-free black-box attack  
+Thibault Maho, Teddy Furon, Erwan Le Merrer  
+[[paper](https://arxiv.org/pdf/2011.12807v1.pdf)] [[code](https://github.com/t-maho/SurFree)]
+
++ Natural Adversarial Examples  
+Dan Hendrycks, Kevin Zhao, Steven Basart, Jacob Steinhardt, Dawn Song  
+[[paper](https://arxiv.org/pdf/1907.07174.pdf)] [[code](https://github.com/hendrycks/natural-adv-examples)]
+
+### IJCAI 2021
+
++ Demiguise Attack: Crafting Invisible Semantic Adversarial Perturbations with Perceptual Similarity  
+Yajie Wang,Shangbo Wu,Wenyi Jiang,Shengang Hao,Yu-an Tan,Quanxin Zhang  
+[[paper](https://www.ijcai.org/proceedings/2021/0430.pdf)] [[code]()]
+
+### ICCV 2021
+
++ Attack Agnostic Detection of Adversarial Examples via Random Subspace Analysis (Defense)  
+Nathan Drenkow, Neil Fendley, Philippe Burlina  
+[[paper](https://arxiv.org/pdf/2012.06405.pdf)] [[code]()]  
+
++ Reliably fast adversarial training via latent adversarial perturbation (Defense)  
+Geon Yeong Park Sang Wan Lee  
+[[paper](Park_Reliably_Fast_Adversarial_Training_via_Latent_Adversarial_Perturbation_ICCV_2021_paper)] [[code]()]  
+
++ AGKD-BML: Defense Against Adversarial Attack by Attention Guided Knowledge Distillation and Bi-directional Metric Learning  
+Hong Wang, Yuefan Deng, Shinjae Yoo, Haibin Ling, Yuewei Lin    
+[[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_AGKD-BML_Defense_Against_Adversarial_Attack_by_Attention_Guided_Knowledge_Distillation_ICCV_2021_paper.pdf)] [[code](https://github.com/hongw579/AGKD-BML)]
+
++ AdvDrop: Adversarial Attack to DNNs by Dropping Information  
+Ranjie DuanYuefeng Chen Dantong Niu Yun Yang A. K. Qin Yuan He  
+[[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Duan_AdvDrop_Adversarial_Attack_to_DNNs_by_Dropping_Information_ICCV_2021_paper.pdf)] [[code]()]
+
++ Admix: Enhancing the Transferability of Adversarial Attacks  
+Xiaosen Wang Xuanran He Jingdong Wang Kun He  
+[[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Admix_Enhancing_the_Transferability_of_Adversarial_Attacks_ICCV_2021_paper.pdf)] [[code](https://github.com/JHL-HUST/Admix)]
+
++ TkML-AP: Adversarial Attacks to Top-k Multi-Label Learning  
+Shu Hu, Lipeng Ke, Xin Wang, Siwei Lyu  
+[[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Hu_TkML-AP_Adversarial_Attacks_to_Top-k_Multi-Label_Learning_ICCV_2021_paper.pdf)] [[code](https://github.com/discovershu/TKML-AP)]
+
++ Adversarial Example Detection Using Latent Neighborhood Graph (Defense)  
+Ahmed Abusnaina, Yuhang Wu, Sunpreet Arora, Yizhen Wang, Fei Wang, Hao Yang, David Mohaisen  
+[[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Abusnaina_Adversarial_Example_Detection_Using_Latent_Neighborhood_Graph_ICCV_2021_paper.pdf)] [[code]()]
+
++ Feature Importance-aware Transferable Adversarial Attacks  
+Zhibo Wang, Hengchang Guo, Zhifei Zhang, Wenxin Liu, Zhan Qin, Kui Ren  
+[[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Feature_Importance-Aware_Transferable_Adversarial_Attacks_ICCV_2021_paper.pdf)] [[code](https://github.com/hcguoO0/FIA)]
 
 ### ICLR 2020
 
@@ -62,6 +146,12 @@ Cihang Xie, Zhishuai Zhang, Yuyin Zhou, Song Bai, Jianyu Wang, Zhou Ren, Alan Yu
 + Evading Defenses to Transferable Adversarial Examples by Translation-Invariant Attacks (TI-FGSM)  
 Yinpeng Dong, Tianyu Pang, Hang Su, Jun Zhu  
 [[paper](https://arxiv.org/pdf/1904.02884.pdf)] [[code](https://github.com/dongyp13/Translation-Invariant-Attacks)]
+
++ SparseFool: a few pixels make a big difference (SparseFool)  
+Apostolos Modas, Seyed-Mohsen Moosavi-Dezfooli, Pascal Frossard Ecole Polytechnique Federale de Lausanne  
+[[paper](https://arxiv.org/pdf/1811.02248.pdf)] [[code](https://github.com/LTS4/SparseFool)]
+
+
 
 ### CVPR 2018
 
@@ -128,6 +218,13 @@ Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, 
 
 ---
 ## <span id="jump2">Image_Adversarial_Patch_Attack</span>
+
+
+### ICCV 2021
+
++ Defending against Universal Adversarial Patches by Clipping Feature Norms (Defense)  
+Cheng Yu, Jiansheng Chen, Youze Xue, Yuyang Liu, Weitao Wan, Jiayu Bao, Huimin Ma  
+[[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_Defending_Against_Universal_Adversarial_Patches_by_Clipping_Feature_Norms_ICCV_2021_paper.pdf)] [[code](https://github.com/jiaxiaojunQAQ/Adv-watermark)] 
 
 ### ACM MM 2020
 
