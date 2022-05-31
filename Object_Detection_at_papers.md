@@ -179,7 +179,7 @@ BAniruddha Saha, Akshayvarun Subramanya, Koninika Patil, Hamed Pirsiavash
 [[paper](https://arxiv.org/pdf/1910.00068.pdf)] [[code](https://github.com/UMBCvision/Contextual-Adversarial-Patches)] 
   <details>
     <summary>Notes</summary>
-    In this paper, we examine this problem and design category speciﬁc adversarial patches which make a widely used object detector like YOLO blind to an attacker chosen object category. We also show that limiting the use of spatial context during object detector training improves robustness to such adversaries. We believe the existence of context based adversarial attacks is concerning since the adversarial patch can affect predictions without being in vicinity of any objects of interest. Hence, defending against such attacks becomes challenging and we urge the research community to give attention to this vulnerability.
+    <center>In this paper, we examine this problem and design category speciﬁc adversarial patches which make a widely used object detector like YOLO blind to an attacker chosen object category. We also show that limiting the use of spatial context during object detector training improves robustness to such adversaries. We believe the existence of context based adversarial attacks is concerning since the adversarial patch can affect predictions without being in vicinity of any objects of interest. Hence, defending against such attacks becomes challenging and we urge the research community to give attention to this vulnerability.</center>
     </details>
 ### ECCV 2020
 
