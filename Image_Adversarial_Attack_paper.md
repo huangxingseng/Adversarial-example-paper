@@ -33,6 +33,24 @@ Tianxun Zhou, Shubhankar Agrawal, Prateek Manocha
 Yonggan Fu, Shunyao Zhang, Shang Wu, Cheng Wan, Yingyan Lin  
 [[paper](https://arxiv.org/pdf/2203.08392.pdf)] [[code](https://github.com/rice-eic/patch-fool)]
 
++ ON IMPROVING ADVERSARIAL TRANSFERABILITY OF VISION TRANSFORMERS  
+Muzammal Naseer, Kanchana Ranasinghe, Salman Khan, Fahad Shahbaz Khan, Fatih Porikli  
+[[paper](https://openreview.net/pdf?id=D6nH3719vZy)] [[code](https://t.ly/hBbW)]  
+
+
++ BAG OF TRICKS FOR ADVERSARIAL TRAINING  
+Tianyu Pang, Xiao Yang, Yinpeng Dong, Hang Su, Jun Zhu    
+[[paper](https://openreview.net/pdf?id=Xb8xvrtB8Ce)] [[code](https://github.com/P2333/Bag-of-Tricks-for-AT)]
+
+
++ Perceptual Adversarial Robustness: Defense Against Unseen Threat Models  
+Laidlaw, Cassidy and Singla, Sahil and Feizi, Soheil    
+[[paper](https://arxiv.org/pdf/2006.12655)] [[code](https://github.com/cassidylaidlaw/perceptual-advex)]
+
++ A UNIFIED APPROACH TO INTERPRETING AND BOOSTING ADVERSARIAL TRANSFERABILITY  
+Xin Wang, Jie Ren, Shuyun Lin, Xiangming Zhu, Yisen Wang, Quanshi Zhang    
+[[paper](https://arxiv.org/abs/2010.04055)] [[code](https://github.com/xherdan76/A-Unified-Approach-to-Interpreting-and-Boosting-Adversarial-Transferability)]
+
 ### CVPR 2022
 
 + LAS-AT: Adversarial Training with Learnable Attack Strategy  
@@ -55,6 +73,56 @@ Zhaoyu Chen, Bo Li, Jianghe Xu, Shuang Wu, Shouhong Ding, Wenqiang Zhang
 Junyoung Byun, Seungju Cho, Myung-Joon Kwon, Hee-Seon Kim, Changick Kim  
 [[paper](https://arxiv.org/pdf/2203.09123.pdf)] [[code](https://github.com/dreamflake/odi)]
 
++ Understanding and Increasing Efficiency of Frank-Wolfe Adversarial Training(Defense)  
+Theodoros Tsiligkaridis, Jay Roberts  
+[[paper](https://arxiv.org/pdf/2012.12368.pdf)] [[code](https://github.com/TheoT1/FW-AT-Adapt)]
+
++ Exploring Frequency Adversarial Attacks for Face Forgery Detection  
+Shuai Jia, Chao Ma, Taiping Yao, Bangjie Yin, Shouhong Ding, Xiaokang Yang  
+[[paper](https://arxiv.org/pdf/2203.15674.pdf)] [[code]()]  
+
++ Subspace Adversarial Training(Defense) 
+Tao Li, Yingwen Wu, Sizhe Chen, Kun Fang, Xiaolin Huang    
+[[paper](https://arxiv.org/abs/2111.12229.pdf)] [[code](https://github.com/nblt/sub-at)]  
+
++ Pyramid Adversarial Training Improves ViT Performance(Defense) 
+Charles Herrmann, Kyle Sargent, Lu Jiang, Ramin Zabih, Huiwen Chang, Ce Liu, Dilip Krishnan, Deqing Sun    
+[[paper](https://arxiv.org/abs/2111.15121.pdf)] [[code]()]  
+
++ Transferable Sparse Adversarial Attack  
+Ziwen He, Wei Wang, Jing Dong, Tieniu Tan  
+[[paper](https://arxiv.org/pdf/2105.14727.pdf)] [[code](https://github.com/shaguopohuaizhe/TSAA)]  
+
+
++ Practical Evaluation of Adversarial Robustness via Adaptive Auto Attack  
+Ye Liu, Yaya Cheng, Lianli Gao, Xianglong Liu, Qilong Zhang, Jingkuan Song  
+[[paper](https://arxiv.org/abs/2203.05154.pdf)] [[code](https://github.com/liuye6666/adaptive_auto_attack)]  
+
++ Bounded Adversarial Attack on Deep Content Features  
+Qiuling Xu, Guanhong Tao, Xiangyu Zhang  
+[[paper](https://www.cs.purdue.edu/homes/taog/docs/CVPR22_Xu.pdf)] [[code](https://github.com/qiulingxu/D2B)]  
+
++ Give Me Your Attention: Dot-Product Attention Considered Harmful for Adversarial Patch Robustness  
+Giulio Lovisotto, Nicole Finnie, Mauricio Munoz, Chaithanya Kumar Mummadi, Jan Hendrik Metzen  
+[[paper](https://arxiv.org/pdf/2203.13639.pdf)] [[code]()]  
+
++ Adversarial Eigen Attack on Black-Box Models  
+Linjun Zhou, Peng Cui, Yinan Jiang, Shiqiang Yang  
+[[paper](https://arxiv.org/pdf/2009.00097.pdf)] [[code]()]  
+
++ Enhancing Adversarial Training with Second-Order Statistics of Weights  
+Gaojie Jin, Xinping Yi, Wei Huang, Sven Schewe, Xiaowei Huang  
+[[paper](https://arxiv.org/pdf/2203.06020.pdf)] [[code]()]  
+
++ Frequency-driven Imperceptible Adversarial Attack on Semantic Similarity  
+Cheng Luo, Qinliang Lin, Weicheng Xie, Bizhu Wu, Jinheng Xie, Linlin Shen  
+[[paper](https://arxiv.org/pdf/2203.05151.pdf)] [[code](https://github.com/LinQinLiang/SSAH-adversarial-attack)]  
+
++ Shadows can be Dangerous: Stealthy and Effective Physical-world Adversarial Attack by Natural Phenomenon   
+Yiqi Zhong, Xianming Liu, Deming Zhai, Junjun Jiang, Xiangyang Ji  
+[[paper](https://arxiv.org/pdf/2203.03818.pdf)] [[code](https://github.com/hncszyq/ShadowAttack)]  
+
+
 ### CVPR 2021
 
 + Improving the Transferability of Adversarial Samples With Adversarial Transformations  
@@ -64,10 +132,6 @@ Weibin Wu, Yuxin Su, Michael R. Lyu, Irwin King
 + Enhancing the Transferability of Adversarial Attacks through Variance Tuning  
 Xiaosen Wang, Kun He  
 [[paper](https://arxiv.org/pdf/2103.15571.pdf)] [[code](https://github.com/JHL-HUST/VT)]
-
-+ Transferable Sparse Adversarial Attack  
-Ziwen He, Wei Wang, Jing Dong, Tieniu Tan  
-[[paper](https://arxiv.org/pdf/2105.14727.pdf)] [[code](https://github.com/shaguopohuaizhe/TSAA)]
 
 + SurFree: a fast surrogate-free black-box attack  
 Thibault Maho, Teddy Furon, Erwan Le Merrer  
