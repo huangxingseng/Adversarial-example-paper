@@ -70,6 +70,22 @@ Zhanhao Hu, Siyuan Huang, Xiaopei Zhu, Xiaolin Hu, Fuchun Sun, Bo Zhang
 [[paper](https://arxiv.org/pdf/2203.03373.pdf)] [[code]()]  
 
 
++ Target-aware Dual Adversarial Learning and a Multi-scenario Multi-Modality Benchmark to Fuse Infrared and Visible for Object Detection  
+Jinyuan Liu, Xin Fan, Zhanbo Huang, Guanyao Wu, Risheng Liu, Wei Zhong, Zhongxuan Luo  
+[[paper](https://arxiv.org/pdf/2203.16220.pdf)] [[code](https://github.com/dlut-dimt/tardal)] 
+
++ Cross-Modal Transferable Adversarial Attacks from Images to Videos  
+Zhipeng Wei, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang    
+[[paper](https://arxiv.org/abs/2112.05379.pdf)] [[code](https://github.com/dlut-dimt/tardal)] 
+
++ Segment and Complete: Defending Object Detectors against Adversarial Patch Attacks with Robust Patch Detection  
+Jiang Liu, Alexander Levine, Chun Pong Lau, Rama Chellappa, Soheil Feizi    
+[[paper](https://arxiv.org/pdf/2112.04532)] [[code]()]  
+
++ Zero-Query Transfer Attacks on Context-Aware Object Detectors  
+Zikui Cai, Shantanu Rane, Alejandro E. Brito, Chengyu Song, Srikanth V. Krishnamurthy, Amit K. Roy-Chowdhury, M. Salman Asif   
+[[paper](https://arxiv.org/abs/2203.15230)] [[code]()] 
+
 ### AAAI 2022
 
 + Context-Aware Transfer Attacks for Object Detection  
