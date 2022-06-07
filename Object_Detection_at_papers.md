@@ -14,14 +14,7 @@
 + Transferable Physical Attack against Object Detection with Separable Attention  
 Yu Zhang, Zhiqiang Gong, Yichuang Zhang, YongQian Li, Kangcheng Bin, Jiahao Qi, Wei Xue, Ping Zhong  
 [[paper](https://arxiv.org/pdf/2205.09592.pdf)]  
-  <details>
-    <summary>Notes</summary>
-    - Key points:
-         - With randomly sampled partial observations (25%-50%), the ViT model pretrained using MIM works well for object detection.
-         - Using the features of both ViT and CNNs to generate a feature pyramid for detection.
-    - Performance:
-         - 51.5 AP on COCO val2017   
-    </details>
+
 
 + Focused Adversarial Attacks  
 Thomas Cilloni, Charles Walter, Charles Fleming  
@@ -47,6 +40,14 @@ Xiaochun Lei, Chang Lu, Zetao Jiang, Zhaoting Gong, Xiang Cai, Linjun Lu
 
 ### WACV 2022
 
++ ADC: Adversarial attacks against object Detection that evade Context consistency checks  
+Mingjun Yin, Shasha Li, Chengyu Song, M. Salman Asif, Amit K. Roy-Chowdhury, Srikanth V. Krishnamurthy  
+[[paper](https://openaccess.thecvf.com/content/WACV2022/papers/Yin_ADC_Adversarial_Attacks_Against_Object_Detection_That_Evade_Context_Consistency_WACV_2022_paper.pdf)] [[code]()] 
+  <details>
+    <summary>Notes</summary>
+    In this paper, we show that even context consistency checks can be brittle to properly crafted adversarial examples and to the best of our knowledge, we are the first to do so. Specifically, we propose an adaptive framework to generate examples that subvert such defenses, namely, Adversarial attacks against object Detection that evade Context consistency checks (ADC). In ADC, we formulate a joint optimization problem which has two attack goals, viz., (i) fooling the object detector and (ii) evading the context consistency check system, at the same time. Experiments on both PASCAL VOC and MS COCO datasets show that examples generated with ADC fool the object detector with a success rate of over 85% in most cases, and at the same time evade the recently proposed context consistency checks, with a bypassing rate of over 80% in most cases. Our results suggest that how to robustly model context and check its consistency, is still an open problem.
+    </details>
+
 + Physical Adversarial Attacks on an Aerial Imagery Object Detector  
 YAndrew Du, Bo Chen, Tat-Jun Chin, Yee Wei Law, Michele Sasdelli, Ramesh Rajasegaran, Dillon Campbell  
 [[paper](https://openaccess.thecvf.com/content/WACV2022/papers/Du_Physical_Adversarial_Attacks_on_an_Aerial_Imagery_Object_Detector_WACV_2022_paper.pdf)]  
@@ -69,7 +70,6 @@ Siao Liu, Zhaoyu Chen, Wei Li, Jiwei Zhu, Jiafeng Wang, Wenqiang Zhang, Zhongxue
 Zhanhao Hu, Siyuan Huang, Xiaopei Zhu, Xiaolin Hu, Fuchun Sun, Bo Zhang  
 [[paper](https://arxiv.org/pdf/2203.03373.pdf)] [[code]()]  
 
-
 + Target-aware Dual Adversarial Learning and a Multi-scenario Multi-Modality Benchmark to Fuse Infrared and Visible for Object Detection  
 Jinyuan Liu, Xin Fan, Zhanbo Huang, Guanyao Wu, Risheng Liu, Wei Zhong, Zhongxuan Luo  
 [[paper](https://arxiv.org/pdf/2203.16220.pdf)] [[code](https://github.com/dlut-dimt/tardal)] 
@@ -85,6 +85,10 @@ Jiang Liu, Alexander Levine, Chun Pong Lau, Rama Chellappa, Soheil Feizi
 + Zero-Query Transfer Attacks on Context-Aware Object Detectors  
 Zikui Cai, Shantanu Rane, Alejandro E. Brito, Chengyu Song, Srikanth V. Krishnamurthy, Amit K. Roy-Chowdhury, M. Salman Asif   
 [[paper](https://arxiv.org/abs/2203.15230)] [[code]()] 
+  <details>
+    <summary>Notes</summary>
+    We present the first approach for generating context-consistent adversarial attacks that can evade the context-consistency check of black-box object detectors operating on complex, natural scenes. Unlike many black-box attacks that perform repeated attempts and open themselves to detection, we assume a “zero-query” setting, where the attacker has no knowledge of the classification decisions of the victim system. First, we derive multiple attack plans that assign incorrect labels to victim objects in a context-consistent manner. Then we design and use a novel data structure that we call the perturbation success probability matrix, which enables us to filter the attack plans and choose the one most likely to succeed. This final attack plan is implemented using a perturbation-bounded adversarial attack algorithm. We compare our zero-query attack against a few-query scheme that repeatedly checks if the victim system is fooled. We also compare against state-of-the-art context-agnostic attacks. Against a context-aware defense, the fooling rate of our zero-query approach is significantly higher than context-agnostic approaches and higher than that achievable with up to three rounds of the fewquery scheme.
+    </details>
 
 ### AAAI 2022
 
@@ -107,6 +111,11 @@ Siyuan Liang, Baoyuan Wu, Yanbo Fan, Xingxing Wei, Xiaochun Cao
 + Exploiting Multi-Object Relationships for Detecting Adversarial Attacks in Complex Scenes (Defense)
 Mingjun Yin, Shasha Li, Zikui Cai, Chengyu Song  
 [[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Yin_Exploiting_Multi-Object_Relationships_for_Detecting_Adversarial_Attacks_in_Complex_Scenes_ICCV_2021_paper.pdf)] [[code]()]  
+  <details>
+    <summary>Notes</summary>
+    Motivated by the observation that language descriptions of natural scene images have already captured the object co-occurrence relationships that can be learned by a language model, we develop a novel approach to perform context consistency checks using such language models. The distinguishing aspect of our approach is that it is independent of the deployed object detector and yet offers very high accuracy in terms of detecting adversarial examples in practical scenes with multiple objects. Experiments on the PASCAL VOC and MS COCO datasets show that our method can outperform state-of-the-art methods in detecting adversarial attacks.
+    </details>
+
 
 + Naturalistic Physical Adversarial Patch for Object Detectors  
 Hu Yu-Chih-Tuan, Kung Bo-Han, Tan Daniel Stanley, Chen Jun-Cheng, Hua Kai-Lung, Cheng Wen-Huang  
@@ -119,10 +128,10 @@ Chaoning Zhang, Philipp Benz, Adil Karjauv, In So Kweon
 + Multi-Expert Adversarial Attack Detection in Person Re-identification Using Context Inconsistency  
 Xueping Wang, Shasha Li, Min Liu, Yaonan Wang, Amit K. Roy-Chowdhury  
 [[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Multi-Expert_Adversarial_Attack_Detection_in_Person_Re-Identification_Using_Context_Inconsistency_ICCV_2021_paper.pdf)] [[code]()]  
-
-+ ADC: Adversarial attacks against object Detection that evade Context consistency checks  
-Mingjun Yin, Shasha Li, Chengyu Song, M. Salman Asif, Amit K. Roy-Chowdhury, Srikanth V. Krishnamurthy  
-[[paper](https://openaccess.thecvf.com/content/WACV2022/papers/Yin_ADC_Adversarial_Attacks_Against_Object_Detection_That_Evade_Context_Consistency_WACV_2022_paper.pdf)] [[code]()] 
+  <details>
+    <summary>Notes</summary>
+    In this work, we propose a Multi-Expert Adversarial Attack Detection (MEAAD) approach to achieve this goal by checking context inconsistency, which is suitable for any DNN-based ReID systems. Specifically, three kinds of context inconsistencies caused by adversarial attacks are employed to learn a detector for distinguishing the perturbed examples, i.e., a) the embedding distances between a perturbed query person image and its top-K retrievals are generally larger than those between a benign query image and its top-K retrievals, b) the embedding distances among the top-K retrievals of a perturbed query image are larger than those of a benign query image, c) the top-K retrievals of a benign query image obtained with multiple expert ReID models tend to be consistent, which is not preserved when attacks are present. Extensive experiments on the Market1501 and DukeMTMC-ReID datasets show that, as the first adversarial attack detection approach for ReID, MEAAD effectively detects various adversarial attacks and achieves high ROC-AUC (over 97.5%).
+    </details>
 
 ### IEEE Transactions on Cybernetics 2021 （Q1）
 
@@ -164,6 +173,12 @@ Alon Zolfi, Moshe Kravchik, Yuval Elovici, Asaf Shabtai
 Tian Pan, Yibing Song, Tianyu Yang, Wenhao Jiang, Wei Liu   
 [[paper](https://arxiv.org/pdf/2103.05905)] [[code](https://github.com/tinapan-pt/VideoMoCo)]
 
+### ICASSP 2021
+
++ Detecting Adversarial Attacks On Audiovisual Speech Recognition  
+Pingchuan Ma, Stavros Petridis, Maja Pantic  
+[[paper](https://arxiv.org/abs/1912.08639)] [[code]()]  
+
 ### CVPR 2020
 
 + One-Shot Adversarial Attacks on Visual Tracking With Dual Attention  
@@ -179,7 +194,7 @@ BAniruddha Saha, Akshayvarun Subramanya, Koninika Patil, Hamed Pirsiavash
 [[paper](https://arxiv.org/pdf/1910.00068.pdf)] [[code](https://github.com/UMBCvision/Contextual-Adversarial-Patches)] 
   <details>
     <summary>Notes</summary>
-    <center>In this paper, we examine this problem and design category speciﬁc adversarial patches which make a widely used object detector like YOLO blind to an attacker chosen object category. We also show that limiting the use of spatial context during object detector training improves robustness to such adversaries. We believe the existence of context based adversarial attacks is concerning since the adversarial patch can affect predictions without being in vicinity of any objects of interest. Hence, defending against such attacks becomes challenging and we urge the research community to give attention to this vulnerability.</center>
+    In this paper, we examine this problem and design category speciﬁc adversarial patches which make a widely used object detector like YOLO blind to an attacker chosen object category. We also show that limiting the use of spatial context during object detector training improves robustness to such adversaries. We believe the existence of context based adversarial attacks is concerning since the adversarial patch can affect predictions without being in vicinity of any objects of interest. Hence, defending against such attacks becomes challenging and we urge the research community to give attention to this vulnerability.
     </details>
 ### ECCV 2020
 
@@ -202,6 +217,12 @@ Krishna Kanth Nakka, Mathieu Salzmann
 + Connecting the Dots: Detecting Adversarial Perturbations Using Context Inconsistency  
 Shasha Li, Shitong Zhu, Sudipta Paul  
 [[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680392.pdf)] [[code]()]
+  <details>
+    <summary>Notes</summary>
+    we are the ﬁrst to propose using context inconsistency to detect adversarial perturbations in object classiﬁcation tasks. We design and realize a DNN-based adversarial detection system that automatically extracts context for each region, and checks its consistency with a learned context distribution of the corresponding category. We conduct extensive experiments on both digital and physical perturbation attacks with three diﬀerent adversarial targets on two large-scale datasets - PASCAL VOC and Microsoft COCO.
+    </details>
+
+
 
 + APRICOT: A Dataset of Physical Adversarial Attacks on Object Detection  
 A. Braunegg, Amartya Chakraborty, Michael Krumdick, Nicole Lape  
@@ -257,6 +278,12 @@ Xingxing Wei, Siyuan Liang, Ning Chen, Xiaochun Cao
 Simen Thys, Wiebe Van Ranst, Toon Goedemé  
 [[paper](https://arxiv.org/pdf/1904.08653.pdf)] [[code](https://gitlab.com/EAVISE/adversarial-yolo)]  
 
+### ICCV 2019
+
++ AdvIT: Adversarial Frames Identifier Based on Temporal Consistency in Videos  
+  Chaowei Xiao, Ruizhi Deng, Bo Li, Taesung Lee, Benjamin Edwards, Jinfeng Yi, Dawn Song, Mingyan Liu, Ian M. Molloy  
+[[paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Xiao_AdvIT_Adversarial_Frames_Identifier_Based_on_Temporal_Consistency_in_Videos_ICCV_2019_paper.pdf)] [[code]()]  
+
 ### BMVC 2019
 
 + Exploring the Vulnerability of Single Shot Module in Object Detectors via Imperceptible Background Patches  
@@ -275,6 +302,14 @@ Mark Lee, Zico Kolter
 Mark Lee, Zico Kolter  
 [[paper](https://arxiv.org/pdf/1906.11897.pdf)] [[code](https://github.com/erasaur/adversarial-patch-object-detection)]  
 
++ Identifying and Resisting Adversarial Videos Using Temporal Consistency  
+Xiaojun Jia, Xingxing Wei, Xiaochun Cao  
+[[paper](https://arxiv.org/abs/1909.04837)] [[code](h)]  
+  <details>
+    <summary>Notes</summary>
+    In this paper, we propose an effective defense framework to characterize and defend adversarial videos. The proposed method contains two phases: (1) adversarial video detection using temporal consistency between adjacent frames, and (2) adversarial perturbation reduction via denoisers in the spatial and temporal domains respectively. Specifically, because of the linear nature of DNNs, the imperceptible perturbations will enlarge with the increasing of DNNs depth, which leads to the inconsistency of DNNs output between adjacent frames. However, the benign video frames often have the same outputs with their neighbor frames owing to the slight changes. Based on this observation, we can distinguish between adversarial videos and benign videos. After that, we utilize different defense strategies against different attacks. We propose the temporal defense, which reconstructs the polluted frames with their temporally neighbor clean frames, to deal with the adversarial videos with sparse polluted frames. For the videos with dense polluted frames, we use an efficient adversarial denoiser to process each frame in the spatial domain, and thus purify the perturbations (we call it as spatial defense). A series of experiments conducted on the UCF-101 dataset demonstrate that the proposed method significantly improves the robustness of video classifiers against adversarial attacks.
+    </details>
+
 ### USENIX Security 2018
 
 + Physical Adversarial Examples for Object Detectors  
@@ -286,6 +321,12 @@ Kevin Eykholt, Ivan Evtimov, Earlence Fernandes, Bo Li, Amir Rahmati, Florian Tr
 + Robust Physical-World Attacks on Deep Learning Models  
 Kevin Eykholt, Ivan Evtimov, Earlence Fernandes, Bo Li, Amir Rahmati, Chaowei Xiao, Atul Prakash, Tadayoshi Kohno, Dawn Song  
 [[paper](https://arxiv.org/pdf/1707.08945.pdf)] [[code](https://gitlab.com/EAVISE/adversarial-yolo)]  
+
+### ECCV 2018
+
++ Characterizing Adversarial Examples Based on Spatial Consistency Information for Semantic Segmentation  
+Chaowei Xiao, Ruizhi Deng, Bo Li, Fisher Yu, Mingyan Liu, Dawn Song  
+[[paper](https://arxiv.org/abs/1810.05162.pdf)] [[code](https://gitlab.com/EAVISE/adversarial-yolo)]  
 
 ### ECML-PKDD 2018（CCF B）
 
