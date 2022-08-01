@@ -25,7 +25,17 @@ Guoqiu Wang, Xingxing Wei, Huanqian Yan
 
 + Optimizing One-pixel Black-box Adversarial Attacks    
 Tianxun Zhou, Shubhankar Agrawal, Prateek Manocha  
-[[paper](https://arxiv.org/pdf/2205.02116.pdf)] [[code]()]
+[[paper](https://arxiv.org/pdf/2205.02116.pdf)] [[code]()]  
+
+### ECCV 2022
+
++ Frequency Domain Model Augmentation for Adversarial Attack  
+Yuyang Long, Qilong Zhang, Boheng Zeng, Lianli Gao, Xianglong Liu, Jian Zhang, Jingkuan Song  
+[[paper](https://arxiv.org/abs/2207.05382)] [[code](https://github.com/yuyang-long/SSA)]  
+
++ Susceptibility of Continual Learning Against Adversarial Attacks  
+Hikmat Khan, Pir Masoom Shah, Syed Farhan Alam Zaidi, Saif ul Islam    
+[[paper](https://arxiv.org/abs/2207.05225?context=cs)] [[code]()]
 
 ### ICLR 2022
 
