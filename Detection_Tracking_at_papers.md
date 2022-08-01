@@ -32,6 +32,9 @@ Youngjoon Yu, Hong Joo Lee, Hakmin Lee, Yong Man Ro
 Xiaochun Lei, Chang Lu, Zetao Jiang, Zhaoting Gong, Xiang Cai, Linjun Lu  
 [[paper](https://arxiv.org/pdf/2205.04638.pdf)] [[code]()]
 
++ Deepfake Video Detection with Spatiotemporal Dropout Transformer(Defense)   
+Daichi Zhang, Fanzhao Lin, Yingying Hua, Pengju Wang, Dan Zeng, Shiming Ge    
+[[paper](https://arxiv.org/pdf/2207.06612)] [[code]()]
 
 ### WACV 2022
 
@@ -46,6 +49,13 @@ Mingjun Yin, Shasha Li, Chengyu Song, M. Salman Asif, Amit K. Roy-Chowdhury, Sri
 + Physical Adversarial Attacks on an Aerial Imagery Object Detector  
 YAndrew Du, Bo Chen, Tat-Jun Chin, Yee Wei Law, Michele Sasdelli, Ramesh Rajasegaran, Dillon Campbell  
 [[paper](https://openaccess.thecvf.com/content/WACV2022/papers/Du_Physical_Adversarial_Attacks_on_an_Aerial_Imagery_Object_Detector_WACV_2022_paper.pdf)]  
+
+### ECCV 2022
+
++ Adversarially-Aware Robust Object Detector(Defense)    
+Ziyi Dong, Pengxu Wei, Liang Lin    
+[[paper](https://arxiv.org/abs/2207.06202)] [[code](https://github.com/7eu7d7/robustdet)]  
+
 
 ### CVPR 2022
 
@@ -315,12 +325,22 @@ YNilaksh Das, Sheng-Yun Peng, Duen Horng Chau
 + Few-Shot Backdoor Attacks on Visual Object Tracking  
 Yiming Li, Haoxiang Zhong, Xingjun Ma, Yong Jiang, Shu-Tao Xia  
 [[paper](https://arxiv.org/pdf/2201.13178.pdf)] [[code](https://github.com/hxzhong1997/fsba)]  
+  <details>
+    <summary>Notes</summary>
+    提出一种只对少量样本植入后门攻击（Backdoor Attack）基于孪生网络（Siamese Network）的目标跟踪模型的后门攻击方法，现有的方法在攻击的时候效果不好的原因在于良性帧与对抗帧特征空间上距离较近，导致攻击效果不佳，作者改进思路将该任务看作是一种多任务学习，学习的目标是最小化标准跟踪损失和最大化良性和对抗模版（Temple）、良性搜索区域（Region）与对抗搜索区域的特征损失，减少计算量同时保证攻击性能，通过指标精确率、AUC等展示实验结果。
+    </details>
 
 ### ICASSP 2022
 
 + Efficient universal shuffle attack for visual object tracking  
 Siao Liu, Zhaoyu Chen, Wei Li, Jiwei Zhu, Jiafeng Wang, Wenqiang Zhang, Zhongxue Gan  
 [[paper](https://arxiv.org/pdf/2203.06898.pdf)] [[code]()]  
+
+### ICCV 2021
+
++ Learning to Adversarially Blur Visual Object Tracking    
+Qing Guo, Ziyi Cheng, Felix Juefei-Xu, Lei Ma, Xiaofei Xie, Yang Liu, Jianjun Zhao  
+[[paper](https://arxiv.org/abs/2107.12085.pdf)] [[code](https://github.com/tsingqguo/ABA)]  
 
 ### CVPR 2021
 
@@ -337,6 +357,12 @@ Xuesong Chen, Xiyu Yan, Feng Zheng, Yong Jiang, Shu-Tao Xia, Yong Zhao, Rongrong
 + Cooling-Shrinking Attack: Blinding the Tracker with Imperceptible Noises    
 Bin Yan, Dong Wang, Huchuan Lu, Xiaoyun Yang  
 [[paper](https://arxiv.org/pdf/2003.09595.pdf)] [[code](https://github.com/MasterBin-IIAU/CSA)]   
+  <details>
+    <summary>Notes</summary>
+    提出一种冷却-收缩对抗攻击方法攻击基于Siamese的跟踪模型，该方法通过设计冷却收缩损失函数，训练一个扰动生成器网络，能够冷却目标存在的热力图区域以及收缩预测的bounding box，使目标隐形。
+    </details> 
+
+
 
 ### ECCV 2020
 
