@@ -314,6 +314,13 @@ Cihang Xie, Jianyu Wang, Zhishuai Zhang, Yuyin Zhou, Lingxi Xie, Alan Yuille
 
 ## <span id="jump2">Track_Adversarial_Example_Attack</span>
 
+### ICRA 2022
+
++ Ad2 Attack: Adaptive Adversarial Attack on Real-Time UAV Tracking  
+Changhong Fu, Sihang Li, Xinnan Yuan, Junjie Ye, Ziang Cao, Fangqiang Ding  
+[[paper](https://arxiv.org/abs/2203.01516)] [[code](github.com/vision4robotics/Ad2Attack)]  
+
+
 ### arxiv 2022
 
 + SkeleVision: Towards Adversarial Resiliency of Person Tracking with Multi-Task Learning   
@@ -348,6 +355,13 @@ Qing Guo, Ziyi Cheng, Felix Juefei-Xu, Lei Ma, Xiaofei Xie, Yang Liu, Jianjun Zh
 Shuai Jia, Yibing Song, Chao Ma, Xiaokang Yang  
 [[paper](https://arxiv.org/pdf/2103.14938.pdf)] [[code](https://github.com/VISION-SJTU/IoUattack)]  
 
+
+### AAAI 2021
+
++ Towards Universal Physical Attacks on Single Object Tracking  
+Li Ding, Yongwei Wang, Kaiwen Yuan, Minyang Jiang, Ping Wang, Hua Huang, Z. Jane Wang  
+[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16211/16018)] [[code]()]
+
 ### CVPR 2020
 
 + One-Shot Adversarial Attacks on Visual Tracking With Dual Attention  
@@ -362,7 +376,11 @@ Bin Yan, Dong Wang, Huchuan Lu, Xiaoyun Yang
     提出一种冷却-收缩对抗攻击方法攻击基于Siamese的跟踪模型，该方法通过设计冷却收缩损失函数，训练一个扰动生成器网络，能够冷却目标存在的热力图区域以及收缩预测的bounding box，使目标隐形。
     </details> 
 
+### ICLR 2020  
 
++ Fooling Detection Alone is Not Enough: First Adversarial Attack against Multiple Object Tracking  
+  Yunhan Jia, Yantao Lu, Junjie Shen, Qi Alfred Chen, Zhenyu Zhong, Tao Wei  
+[[paper](https://www.ics.uci.edu/~alfchen/jack_iclr20.pdf)] [[code](https://github.com/anonymousjack/hijacking)]  
 
 ### ECCV 2020
 
@@ -377,6 +395,12 @@ Qing Guo, Xiaofei Xie, Felix Juefei-Xu, Lei Ma, Zhongguo Li, Wanli Xue, Wei Feng
 + Robust Tracking against Adversarial Attacks  
 Shuai Jia, Chao Ma, Yibing Song, Xiaokang Yang  
 [[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640069.pdf)] [[code](https://github.com/joshuajss/RTAA)]  
+
+### AAAI 2020
+
++ A Unified Multi-Scenario Attacking Network for Visual Object Tracking  
+Xuesong Chen, Canmiao Fu, Feng Zheng, Yong Zhao, Hongsheng Li, Ping Luo, Guo-Jun Qi  
+[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16195/16002)] [[code]()]
 
 
 ## Datasets
