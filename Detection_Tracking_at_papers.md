@@ -10,6 +10,14 @@
 ## <span id="jump1">Object_Detectio_Adversarial_Example_Attack</span>
 
 
++ Efficient Robustness Assessment via Adversarial Spatial-Temporal Focus on Videos   
+Xingxing Wei, Songping Wang, Huanqian Yan  
+[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10086664)] [[code]()]
+  <details>
+    <summary>Notes</summary>
+      we propose to simultaneously eliminate the temporal and spatial redundancy within the video to achieve an effective and efficient gradient estimation on the reduced searching space, and thus query number could decrease. To implement this idea, we design the novel Adversarial spatial-temporal Focus (AstFocus) attack on videos, which performs attacks on the simultaneously focused key frames and key regions from the inter-frames and intra-frames in the video. AstFocus attack is based on the cooperative Multi-Agent Reinforcement Learning (MARL) framework. One agent is responsible for selecting key frames, and another agent is responsible for selecting key regions. These two agents are jointly trained by the common rewards received from the black-box threat models to perform a cooperative prediction. By continuously querying, the reduced searching space composed of key frames and key regions is becoming precise, and the whole query number becomes less than that on the original video.
+    </details>
+
 ### arxiv 2023
 
 + T-SEA: Transfer-based Self-Ensemble Attack on Object Detection   
@@ -20,6 +28,14 @@ YHao Huang, Ziyan Chen, Huanran Chen
      we focus on the single-model transfer-based black-box attack on object detection, utilizing only one model to achieve a high-transferability adversarial attack on multiple black-box detectors. Specifically, we first make observations on the patch optimization process of the existing method and propose an enhanced attack framework by slightly adjusting its training strategies. Then, we analogize patch optimization with regular model optimization, proposing a series of self-ensemble approaches on the input data, the attacked model, and the adversarial patch to efficiently make use of the limited information and prevent the patch from overfitting.
     </details>
 
+
++ AIR-DA: Adversarial Image Reconstruction for Unsupervised Domain Adaptive Object Detection   
+Kunyang Sun, Wei Lin, Haoqin Shi, Zhengming Zhang, Yongming Huang, Horst Bischof    
+[[paper](https://arxiv.org/pdf/2303.15377.pdf)] [[code](https://github.com/VDIGPKU/T-SEA)]
+  <details>
+    <summary>Notes</summary>
+     we achieve a better domain alignment by introducing an auxiliary regularization task to improve the training balance. Specifically, we propose Adversarial Image Reconstruction (AIR) as the regularizer to facilitate the adversarial training of the feature extractor. We further design a multi-level feature alignment module to enhance the adaptation performance.
+    </details>
 
 
 
