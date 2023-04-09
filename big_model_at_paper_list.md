@@ -34,6 +34,14 @@ Srinadh Bhojanapalli, Ayan Chakrabarti, Daniel Glasner, Daliang Li, Thomas Unter
 ## <span id="jump2">Black-box-Attack</span>
 
 
+### CVPR 2023
+
++ Transferable Adversarial Attacks on Vision Transformers with Token Gradient Regularization
+Jianping Zhang, Yizhan Huang, Weibin Wu, Michael R. Lyu  
+[[paper](https://arxiv.org/pdf/2303.15754.pdf)] [[code]()]  
+
+
+
 ### arxiv 2022
 
 + Decision-based Black-box Attack Against Vision Transformers via Patch-wise Adversarial Removal
@@ -50,5 +58,15 @@ Zhipeng Wei, Jingjing Chen, Micah Goldblum, Zuxuan Wu, Tom Goldstein, Yu-Gang Ji
 Muzammal Naseer, Kanchana Ranasinghe, Salman Khan, Fahad Shahbaz Khan, Fatih Porikli  
 [[paper](https://arxiv.org/abs/2106.04169)] [[code](https://t.ly/hBbW)]  
 
+
+### CVPR 2022
+
++ A Comprehensive Study of Image Classification Model Sensitivity to Foregrounds, Backgrounds, and Visual Attributes  
+Mazda Moayeri, Phillip Pope, Yogesh Balaji  
+[[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Moayeri_A_Comprehensive_Study_of_Image_Classification_Model_Sensitivity_to_Foregrounds_CVPR_2022_paper.pdf)] [[code]()]  
+  <details>
+    <summary>Notes</summary>
+    In our analysis, we consider diverse state-of-the-art architectures (ResNets, Transformers) and training procedures (CLIP, SimCLR, DeiT, Adversarial Training). We find that, somewhat surprisingly, in ResNets, adversarial training makes models more sensitive to the background compared to foreground than standard training. Similarly, contrastively-trained models also have lower relative foreground sensitivity in both transformers and ResNets. Lastly, we observe intriguing adaptive abilities of transformers to increase relative foreground sensitivity as corruption level increases. Using saliency methods, we automatically discover spurious features that drive the background sensitivity of models and assess alignment of saliency maps with foregrounds
+    </details>
 
 
