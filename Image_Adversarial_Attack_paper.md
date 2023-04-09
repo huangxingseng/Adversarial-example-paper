@@ -32,6 +32,14 @@ Jianping Zhang, Jen-tse Huang, Wenxuan Wang, Yichen Li, Weibin Wu, Xiaosen Wang,
     </details>
 
 
++ Sensitive Region-Aware Black-box Adversarial Attacks    
+Chenhao Lina, Sicong Hana, Jiongli Zhub, Qian Lia, Chao Shena, Youwei    
+[[paper](https://pdf.sciencedirectassets.com/271625/AIP/1-s2.0-S0020025523004978/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCN1ZoPF9p9FvjL03t%2F%2FgnxINk600bf7qSehigg6k4dmQIhAJ2usana3QQuA0NyzRDyZz%2FiVbqhXffBwLVeTkmYaza8KrMFCGoQBRoMMDU5MDAzNTQ2ODY1Igy9I7KEU8MeL4%2BhA8sqkAWqL6yNZLyRuhhLtNzVDUp9Bk1hqnY2%2FvuoHlitmnYpzKt%2Baozeh%2BCfEH7qpRsFW4P365eeuG3HGmniewDchDKShe2hXoYX9oPxy0awGhQrQcCn7A7PGs9nPDzqTLph2v6r5VNf65cRGy7gwb0vzpg%2BvattEay8p%2F%2Fj7KrNSFkRfNxbtxvHdA3PkXDscr1Uf%2FHLOeMMUnQGraVGZzU519iXS8gk6t6yitIn%2BD2Kkemy3aIxgkxm%2Bkb5tSXaJ0ncN8TnaBjSWo%2F2KuOFIUFm0yaY4f9%2BzjVXkIanBR22FhBXQaegdDFG%2FywFbxp21I6cQCL0vaadU%2Bx2g4sF2SurjGD5Zve45v0indfeW3FKBwcNv2wX3CvU5v4PVF1mUpUH2Yh7SGPe15t3n%2F34yddAFu6lwuDD17dRYOabmrzOqGXCrJgGjMJKf1XJdTt1gX9%2BWriBIXJmNWKVfWWCWvGMHyD%2Fr4zhpBGiwA4owef8rXrKUFMk1j4KpUngafwq24Q63aHcMn6GFH24mFe4WRjxSZ50uV%2B%2B%2B2WfsDzc%2BVvdR%2BHhSBgK7QWDMdCa%2Ft1Ezch0C4srv%2Bs0ErIlgVYkBBORrCpCIXBdf%2BPKn%2FfVx1IQtG81mggK462UlIByd%2B4MBzBsd%2FFo%2FXc3y9cOQ6dU%2BEMjqZqgvkHo6%2FHtQiYZ5oi2yg%2FNQeRAQOZMa%2BsZmArvBAj8%2F3uBsMl7GRQpcixRR288vpCF%2Fi9Z4FPVvAiMnnWSkPwNr%2FI7xxYBVGiSAb0h8FWMsSD4CR1cvcyOebAyxN2wyYuULVVUl0tmnhdDkvIDLFlCt1x0zs3eYsckqcdQKbHUOXbM98QgraQEh6Aok9tr9wKPNCW6TcV5p%2FJxpp5yjueUTTC%2FlcihBjqwAeBscyL17kLJUM4NHnwpYHA%2BORQZpv3Lax7t%2FFGAR1uzxzxBfJRfo%2BwsO4jhuV6pb4RKO4wwxj9byVZVGL7x0Nq0wiu6wdRpGk0f4zuHICPkF9PxvCVg8%2BdrDCcvGST5kUNGyGvlaPns6qZ39jWdvo%2B9yp%2FQBdnRptYeZApyQnYJLxf0O9vvdUyn7zTOTwbDEZqM%2F6p8oLL7AGfGRhkb9VxJJLA4IzhfOEfVVDKJP75K&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230409T023658Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYUUI5UQNQ%2F20230409%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d71e13cd2a5449f0b7db54b40ad85a14a4d5f437f7b5463aa2f80d6e90620262&hash=91932458acb47b035a1b11c84f996758b3284f5823526988bae6516757507e63&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0020025523004978&tid=spdf-bff35929-be72-43a2-891d-2959656fe404&sid=3d51b3c08cc3064b0b2aea36718a5a497861gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=190855055108560056025f&rr=7b4f5d8e8f762362&cc=cn)] [[code](https://github.com/uhiu/StyLess)]  
+  <details>
+    <summary>Notes</summary>
+    This paper proposes a novel plug-in framework called Sensitive RegionAware Attack (SRA) to generate soft-label black-box adversarial examples using the sensitivity map and evolution strategies. First, a transferable blackbox sensitivity map generation approach is proposed for identifying the sensitive regions of input images. To perform SRA with a limited amount of perturbed pixels, a dynamic l0 and l∞ adjustment strategy is introduced. Furthermore, an adaptive evolution strategy is employed to optimize the selection of generated sensitive regions, allowing for the execution of effective and imperceptible attacks.
+    </details>
+
 
 ### ArXiv 2022
 
@@ -84,6 +92,15 @@ Laidlaw, Cassidy and Singla, Sahil and Feizi, Soheil
 + A UNIFIED APPROACH TO INTERPRETING AND BOOSTING ADVERSARIAL TRANSFERABILITY  
 Xin Wang, Jie Ren, Shuyun Lin, Xiangming Zhu, Yisen Wang, Quanshi Zhang    
 [[paper](https://arxiv.org/abs/2010.04055)] [[code](https://github.com/xherdan76/A-Unified-Approach-to-Interpreting-and-Boosting-Adversarial-Transferability)]
+
++ RETHINKING ADVERSARIAL TRANSFERABILITY FROM A DATA DISTRIBUTION PERSPECTIVE  
+Yao Zhu, Jiacheng Sun2, Zhenguo L     
+[[paper](https://openreview.net/pdf?id=gVRhIEajG1k)] [[code]()]
+  <details>
+    <summary>Notes</summary>
+    In this paper, we rethink adversarial transferability from a data distribution perspective and further enhance transferability by score matching based optimization. We identify that some samples with injecting small Gaussian noise can fool different target models, and their adversarial examples under different source models have much stronger transferability. We hypothesize that these samples are in the low-density region of the ground truth distribution where models are not well trained. To improve the attack success rate of adversarial examples, we match the adversarial attacks with the directions which effectively decrease the ground truth density. We propose Intrinsic Adversarial Attack (IAA), which smooths the activation function and decreases the impact of the later layers of a given normal model, to increase the alignment of adversarial attack and the gradient of joint data distribution.
+    </details>
+
 
 ### CVPR 2022
 
@@ -425,7 +442,54 @@ Tom B. Brown, Dandelion Mané, , Aurko Roy, Martín Abadi, Justin Gilmer
 
 ## <span id="jump3">Image_Backdoor_Attack</span>
 
+### Arxiv 2023 
 
++ Backdoor Cleansing with Unlabeled Data    
+TLu Pang, Tao Sun, Haibin Ling, Chao Chen  
+[[paper](https://arxiv.org/pdf/2211.12044.pdf)] [[code]()]  
+
+
+### NIPS 2022
+
++ BackdoorBench: A Comprehensive Benchmark of Backdoor Learning         
+Wu, Baoyuan and Chen, Hongrui and Zhang, Mingda and Zhu, Zihao and Wei, Shaokui and Yuan, Danni and Shen, Chao and Zha, Hongyuan      
+[[paper]()] [[code](https://github.com/SCLBD/BackdoorBench)] 
+
++ Effective Backdoor Defense by Exploiting Sensitivity of Poisoned Samples       
+Chen, Weixin and Wu, Baoyuan and Wang, Haoqian      
+[[paper]()] [[code](https://github.com/SCLBD/BackdoorBench)] 
+
+### IEEE TRANSACTIONS ON RELIABILITY 2022
+
++ Model Agnostic Defence against Backdoor Attacks in Machine Learning  
+Sakshi Udeshi, Shanshan Peng, Gerald Woo, Lionell Loh, Louth Rawshan, Sudipta Chattopadhyay        
+[[paper](https://arxiv.org/pdf/1908.02203.pdf)] [[code]()] 
+  <details>
+    <summary>Notes</summary>
+    In this work, we present NEO, a model agnostic framework to detect and mitigate such backdoor attacks in image classification ML models. For a given image classification model, our approach analyses the inputs it receives and determines if the model is backdoored. In addition to this feature, we also mitigate these attacks by determining the correct predictions of the poisoned images.
+    </details>
+
+
+
+### ICLR 2022
+
++ Backdoor Defense via Decoupling the Training Process     
+Huang, Kunzhe and Li, Yiming and Wu, Baoyuan and Qin, Zhan and Ren, Kui    
+[[paper]()] [[code](https://github.com/SCLBD/BackdoorBench)] 
+
+
+### ICCV 2021
+
++ Invisible backdoor attack with sample-specific triggers    
+Li, Yuezun and Li, Yiming and Wu, Baoyuan and Li, Longkang and He, Ran and Lyu, Siwei  
+[[paper]()] [[code](https://github.com/SCLBD/BackdoorBench)] 
+
+
+### CVPR 2021
+
++ Black-box Detection of Backdoor Attacks with Limited Information and Data      
+Yinpeng Dong, Xiao Yang, Zhijie Deng, Tianyu Pang, Zihao Xiao, Hang Su, Jun Zhu    
+[[paper](https://arxiv.org/abs/2103.13127#)] [[code]()] 
 
 
 ## <span id="jump4">Image_Adversarial_Survey</span>
@@ -435,7 +499,6 @@ Tom B. Brown, Dandelion Mané, , Aurko Roy, Martín Abadi, Justin Gilmer
 + It Is All About Data: A Survey on the Effects of Data on Adversarial Robustness  
 PEIYU XIONG, MICHAEL TEGEGN, JASKEERAT SINGH SARIN, SHUBHRANEEL PAL, JULIA RUBIN  
 [[paper](https://arxiv.org/pdf/2303.09767.pdf)] [[code]()] 
-
 
 
 
