@@ -10,6 +10,19 @@
 ## <span id="jump1">Object_Detectio_Adversarial_Example_Attack</span>
 
 
+### arxiv 2023
+
++ T-SEA: Transfer-based Self-Ensemble Attack on Object Detection   
+YHao Huang, Ziyan Chen, Huanran Chen  
+[[paper](https://arxiv.org/pdf/2211.09773.pdf)] [[code](https://github.com/VDIGPKU/T-SEA)]
+  <details>
+    <summary>Notes</summary>
+     we focus on the single-model transfer-based black-box attack on object detection, utilizing only one model to achieve a high-transferability adversarial attack on multiple black-box detectors. Specifically, we first make observations on the patch optimization process of the existing method and propose an enhanced attack framework by slightly adjusting its training strategies. Then, we analogize patch optimization with regular model optimization, proposing a series of self-ensemble approaches on the input data, the attacked model, and the adversarial patch to efficiently make use of the limited information and prevent the patch from overfitting.
+    </details>
+
+
+
+
 ### arxiv 2022
 
 + Transferable Physical Attack against Object Detection with Separable Attention  
@@ -35,6 +48,13 @@ Xiaochun Lei, Chang Lu, Zetao Jiang, Zhaoting Gong, Xiang Cai, Linjun Lu
 + Deepfake Video Detection with Spatiotemporal Dropout Transformer(Defense)   
 Daichi Zhang, Fanzhao Lin, Yingying Hua, Pengju Wang, Dan Zeng, Shiming Ge    
 [[paper](https://arxiv.org/pdf/2207.06612)] [[code]()]
+
+
++ GLOW: Global Layout Aware Attacks for Object Detection  
+Jun Bao, Buyu Liu, Jianping Fan, Jun Yu    
+[[paper](https://arxiv.org/pdf/2302.14166v1.pdf)] [[code]()]
+
+
 
 ### WACV 2022
 
