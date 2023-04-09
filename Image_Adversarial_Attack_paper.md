@@ -4,10 +4,34 @@
 ----
 1.[Image_Adversarial_Example_Attack](#jump1)  
 2.[Image_Adversarial_Patch_Attack](#jump2)  
+3.[Image_Backdoor_Attack](#jump3)  
+4.[Image_Adversarial_Survey](#jump4) 
 
 
 ---
+
+
 ## <span id="jump1">Image_Adversarial_Example_Attack</span>
+
+### CVPR 2023
+
++ StyLess: Boosting the Transferability of Adversarial Examples  
+Kaisheng Liang, Bin Xiao   
+[[paper](https://web.comp.polyu.edu.hk/csbxiao/paper/2023/11004_styless_boosting_the_transfera-Camera-ready%20PDF.pdf)] [[code](https://github.com/uhiu/StyLess)]  
+  <details>
+    <summary>Notes</summary>
+    CNN-based: We find that existing transferable attacks do not distinguish between style and content features during optimization, limiting their attack transferability. To improve attack transferability, we propose a novel attack method called style-less perturbation (StyLess). Specifically, instead of using a vanilla network as the surrogate model, we advocate using stylized networks, which encode different style features by perturbing an adaptive instance normalization. Our method can prevent adversarial examples from using non-robust style features and help generate transferable perturbations.
+    </details>
+
++ Improving the Transferability of Adversarial Samples by Path-Augmented Method    
+Jianping Zhang, Jen-tse Huang, Wenxuan Wang, Yichen Li, Weibin Wu, Xiaosen Wang, Yuxin Su, Michael R. Lyu   
+[[paper](https://arxiv.org/abs/2303.15735)] [[code](https://github.com/uhiu/StyLess)]  
+  <details>
+    <summary>Notes</summary>
+    CNN-based: we propose the Path-Augmented Method (PAM). Specifically, PAM first constructs a candidate augmentation path pool. It then settles the employed augmentation paths during adversarial sample generation with greedy search. Furthermore, to avoid augmenting semantics-inconsistent images, we train a Semantics Predictor (SP) to constrain the length of the augmentation path.
+    </details>
+
+
 
 ### ArXiv 2022
 
@@ -399,6 +423,20 @@ Tom B. Brown, Dandelion Mané, , Aurko Roy, Martín Abadi, Justin Gilmer
 [[paper](https://arxiv.org/pdf/1712.09665.pdf)] [[code]()]  
 
 
-## Datasets
+## <span id="jump3">Image_Backdoor_Attack</span>
+
+
+
+
+## <span id="jump4">Image_Adversarial_Survey</span>
+
+### Arxiv 2023
+
++ It Is All About Data: A Survey on the Effects of Data on Adversarial Robustness  
+PEIYU XIONG, MICHAEL TEGEGN, JASKEERAT SINGH SARIN, SHUBHRANEEL PAL, JULIA RUBIN  
+[[paper](https://arxiv.org/pdf/2303.09767.pdf)] [[code]()] 
+
+
+
 
 
