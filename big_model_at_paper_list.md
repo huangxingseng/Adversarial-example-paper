@@ -36,7 +36,7 @@ Srinadh Bhojanapalli, Ayan Chakrabarti, Daniel Glasner, Daliang Li, Thomas Unter
 
 ### CVPR 2023
 
-+ Transferable Adversarial Attacks on Vision Transformers with Token Gradient Regularization
++ Transferable Adversarial Attacks on Vision Transformers with Token Gradient Regularization  
 Jianping Zhang, Yizhan Huang, Weibin Wu, Michael R. Lyu  
 [[paper](https://arxiv.org/pdf/2303.15754.pdf)] [[code]()]  
 
