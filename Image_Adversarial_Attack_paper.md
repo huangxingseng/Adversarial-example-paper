@@ -13,6 +13,14 @@
 
 ## <span id="jump1">Image_Adversarial_Example_Attack</span>
 
+
+### ArXiv 2023
+
++ Going Further: Flatness at the Rescue of Early Stopping for Adversarial Example Transferability  
+Martin Gubri, Maxime Cordy, Yves Le Traon  
+[[paper](https://arxiv.org/abs/2304.02688)] [[code]()]  
+
+
 ### CVPR 2023
 
 + StyLess: Boosting the Transferability of Adversarial Examples  
@@ -39,6 +47,180 @@ Chenhao Lina, Sicong Hana, Jiongli Zhub, Qian Lia, Chao Shena, Youwei
     <summary>Notes</summary>
     This paper proposes a novel plug-in framework called Sensitive RegionAware Attack (SRA) to generate soft-label black-box adversarial examples using the sensitivity map and evolution strategies. First, a transferable blackbox sensitivity map generation approach is proposed for identifying the sensitive regions of input images. To perform SRA with a limited amount of perturbed pixels, a dynamic l0 and l∞ adjustment strategy is introduced. Furthermore, an adaptive evolution strategy is employed to optimize the selection of generated sensitive regions, allowing for the execution of effective and imperceptible attacks.
     </details>
+
+
++ Towards Compositional Adversarial Robustness: Generalizing Adversarial Training to Composite Semantic Perturbations    
+Lei Hsiung, Yun-Yun Tsai, Pin-Yu Chen, Tsung-Yi Ho 
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Hsiung_Towards_Compositional_Adversarial_Robustness_Generalizing_Adversarial_Training_to_Composite_Semantic_CVPR_2023_paper.pdf)] [[code](https://hsiung.cc/CARBEN/)]  
+
+
++ Revisiting Residual Networks for Adversarial Robustness     
+Shihua Huang, Zhichao Lu, Kalyanmoy Deb, Vishnu Naresh Boddeti 
+[[paper](http://arxiv.org/abs/2212.11005)] [[code]()]  
+
+
+
++ CFA: Class-Wise Calibrated Fair Adversarial Training      
+Zeming Wei, Yifei Wang, Yiwen Guo, Yisen Wang  
+[[paper](http://arxiv.org/abs/2303.14460)] [[code]()]  
+
+
+
++ Jedi: Entropy-Based Localization and Removal of Adversarial Patches   
+Bilel Tarchoun, Anouar Ben Khalifa, Mohamed Ali Mahjoub, Nael Abu-Ghazaleh, Ihsen Alouani
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tarchoun_Jedi_Entropy-Based_Localization_and_Removal_of_Adversarial_Patches_CVPR_2023_paper.pdf)] [[code]()]  
+
+
++ Sibling-Attack: Rethinking Transferable Adversarial Attacks Against Face Recognition    
+Zexin Li, Bangjie Yin, Taiping Yao, Junfeng Guo, Shouhong Ding, Simin Chen, Cong Liu  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Sibling-Attack_Rethinking_Transferable_Adversarial_Attacks_Against_Face_Recognition_CVPR_2023_paper.pdf)] [[code]()]  
+
+
+
++ Physically Adversarial Infrared Patches With Learnable Shapes and Locations 
+Xingxing Wei, Jie Yu, Yao Huang  
+[[paper](http://arxiv.org/abs/2303.13868)] [[code]()]  
+
+
+
++ TWINS: A Fine-Tuning Framework for Improved Transferability of Adversarial Robustness and Generalization  
+Ziquan Liu, Yi Xu, Xiangyang Ji, Antoni B. Chan  
+[[paper](http://arxiv.org/abs/2303.11135)] [[code]()]  
+
+
+
+
++ Adversarial Counterfactual Visual Explanations  
+Guillaume Jeanneret, Loïc Simon, Frédéric Jurie    
+[[paper](http://arxiv.org/abs/2303.09962)] [[code]()]  
+
+
++ The Enemy of My Enemy Is My Friend: Exploring Inverse Adversaries for Improving Adversarial Training  
+Junhao Dong, Seyed-Mohsen Moosavi-Dezfooli, Jianhuang Lai, Xiaohua Xie  
+[[paper](http://arxiv.org/abs/2211.00525)] [[code]()]  
+
+
++ Towards Transferable Targeted Adversarial Examples  
+Zhibo Wang, Hongshan Yang, Yunhe Feng, Peng Sun, Hengchang Guo, Zhifei Zhang, Kui Ren  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Towards_Transferable_Targeted_Adversarial_Examples_CVPR_2023_paper.pdf)] [[code]()]  
+
+
++ Discrete Point-Wise Attack Is Not Enough: Generalized Manifold Adversarial Attack for Face Recognition  
+Qian Li, Yuxiao Hu, Ye Liu, Dongxiao Zhang, Xin Jin, Yuntian Chen  
+[[paper](http://arxiv.org/abs/2301.06083)] [[code]()]  
+
+
++ Robust Single Image Reflection Removal Against Adversarial Attacks  
+Zhenbo Song, Zhenyuan Zhang, Kaihao Zhang, Wenhan Luo, Zhaoxin Fan, Wenqi Ren, Jianfeng Lu  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Song_Robust_Single_Image_Reflection_Removal_Against_Adversarial_Attacks_CVPR_2023_paper.pdf)] [[code]()]  
+
+
++ Privacy-Preserving Adversarial Facial Features  
+Zhibo Wang, He Wang, Shuaifan Jin, Wenwen Zhang, Jiahui Hu, Yan Wang, Peng Sun, Wei Yuan, Kaixin Liu, Kui Ren  
+[[paper](http://arxiv.org/abs/2305.05391)] [[code]()]  
+
+
++ Boosting Accuracy and Robustness of Student Models via Adaptive Adversarial Distillation  
+Bo Huang, Mingyang Chen, Yi Wang, Junda Lu, Minhao Cheng, Wei Wang  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Boosting_Accuracy_and_Robustness_of_Student_Models_via_Adaptive_Adversarial_CVPR_2023_paper.pdf)] [[code]()]  
+
+
+
++ Randomized Adversarial Training via Taylor Expansion  
+Gaojie Jin, Xinping Yi, Dengyu Wu, Ronghui Mu, Xiaowei Huang  
+[[paper](http://arxiv.org/abs/2303.10653)] [[code]()]  
+
+
+
++ Edges to Shapes to Concepts: Adversarial Augmentation for Robust Vision  
+Aditay Tripathi, Rishubh Singh, Anirban Chakraborty, Pradeep Shenoy  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tripathi_Edges_to_Shapes_to_Concepts_Adversarial_Augmentation_for_Robust_Vision_CVPR_2023_paper.pdf)] [[code]()]  
+
+
++ Feature Separation and Recalibration for Adversarial Robustness   
+Woo Jae Kim, Yoonki Cho, Junsik Jung, Sung-Eui Yoon  
+[[paper](http://arxiv.org/abs/2303.13846)] [[code]()]  
+  
+
+
++ Towards Benchmarking and Assessing Visual Naturalness of Physical World Adversarial Attacks  
+Simin Li, Shuning Zhang, Gujun Chen, Dong Wang, Pu Feng, Jiakai Wang, Aishan Liu, Xin Yi, Xianglong Liu  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Towards_Benchmarking_and_Assessing_Visual_Naturalness_of_Physical_World_Adversarial_CVPR_2023_paper.pdf)] [[code]()]  
+
+
+
++ BiasAdv: Bias-Adversarial Augmentation for Model Debiasing  
+Jongin Lim, Youngdong Kim, Byungjai Kim, Chanho Ahn, Jinwoo Shin, Eunho Yang, Seungju Han  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Lim_BiasAdv_Bias-Adversarial_Augmentation_for_Model_Debiasing_CVPR_2023_paper.pdf)] [[code]()]  
+
+
++ Adversarial Robustness via Random Projection Filters  
+Minjing Dong, Chang Xu  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Dong_Adversarial_Robustness_via_Random_Projection_Filters_CVPR_2023_paper.pdf)] [[code]()]  
+
+
++ The Best Defense Is a Good Offense: Adversarial Augmentation Against Adversarial Attacks  
+Iuri Frosio, Jan Kautz  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Frosio_The_Best_Defense_Is_a_Good_Offense_Adversarial_Augmentation_Against_CVPR_2023_paper.pdf)] [[code]()]  
+
+
++ Seasoning Model Soups for Robustness to Adversarial and Natural Distribution Shifts  
+Francesco Croce, Sylvestre-Alvise Rebuffi, Evan Shelhamer, Sven Gowal  
+[[paper](http://arxiv.org/abs/2302.10164)] [[code]()]  
+
+
+
++ Introducing Competition To Boost the Transferability of Targeted Adversarial Examples Through Clean Feature Mixup  
+Junyoung Byun, Myung-Joon Kwon, Seungju Cho, Yoonji Kim, Changick Kim  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Byun_Introducing_Competition_To_Boost_the_Transferability_of_Targeted_Adversarial_Examples_CVPR_2023_paper.pdf)] [[code]()]  
+
+
++ StyleAdv: Meta Style Adversarial Training for Cross-Domain Few-Shot Learning  
+Yuqian Fu, Yu Xie, Yanwei Fu, Yu-Gang Jiang  
+[[paper](http://arxiv.org/abs/2302.09309)] [[code]()]  
+
+
+
++ AGAIN: Adversarial Training With Attribution Span Enlargement and Hybrid Feature Fusion  
+Shenglin Yin, Kelu Yao, Sheng Shi, Yangzhou Du, Zhen Xiao  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Yin_AGAIN_Adversarial_Training_With_Attribution_Span_Enlargement_and_Hybrid_Feature_CVPR_2023_paper.pdf)] [[code]()]  
+
+
++ Adversarial Normalization: I Can Visualize Everything (ICE)  
+Hoyoung Choi, Seungwan Jin, Kyungsik Han  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Choi_Adversarial_Normalization_I_Can_Visualize_Everything_ICE_CVPR_2023_paper.pdf)] [[code]()]  
+
+
++ Minimizing Maximum Model Discrepancy for Transferable Black-Box Targeted Attacks  
+HAnqi Zhao, Tong Chu, Yahao Liu, Wen Li, Jingjing Li, Lixin Duan  
+[[paper](http://arxiv.org/abs/2212.09035)] [[code]()]  
+
+
+
++ Efficient Loss Function by Minimizing the Detrimental Effect of Floating-Point Errors on Gradient-Based Attacks  
+Yunrui Yu, Cheng-Zhong Xu  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Efficient_Loss_Function_by_Minimizing_the_Detrimental_Effect_of_Floating-Point_CVPR_2023_paper.pdf)] [[code]()]  
+
+
++ Effective Ambiguity Attack Against Passport-Based DNN Intellectual Property Protection Schemes Through Fully Connected Layer Substitution  
+Yiming Chen, Jinyu Tian, Xiangyu Chen, Jiantao Zhou  
+[[paper](http://arxiv.org/abs/2303.11595)] [[code]()]  
+
+
++ Enhancing the Self-Universality for Transferable Targeted Attacks  
+Zhipeng Wei, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang  
+[[paper](http://arxiv.org/abs/2209.03716)] [[code]()]  
+
+
++ Ensemble-Based Blackbox Attacks on Dense Prediction  
+Zikui Cai, Yaoteng Tan, M. Salman Asif  
+[[paper](http://arxiv.org/abs/2303.14304)] [[code]()]  
+
+
++ 
+Dynamic Generative Targeted Attacks With Pattern Injection  
+Weiwei Feng, Nanqing Xu, Tianzhu Zhang, Yongdong Zhang  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Feng_Dynamic_Generative_Targeted_Attacks_With_Pattern_Injection_CVPR_2023_paper.pdf)] [[code]()]  
 
 
 ### ArXiv 2022
@@ -449,6 +631,75 @@ TLu Pang, Tao Sun, Haibin Ling, Chao Chen
 [[paper](https://arxiv.org/pdf/2211.12044.pdf)] [[code]()]  
 
 
++ Defending Against Patch-based Backdoor Attacks on Self-Supervised Learning    
+Ajinkya Tejankar, Maziar Sanjabi, Qifan Wang  
+[[paper](https://arxiv.org/pdf/2304.01482.pdf)] [[code](https://github.com/UCDvision/PatchSearch)]  
+
+
+
+### CVPR 2023 
+
++ Progressive Backdoor Erasing via Connecting Backdoor and Adversarial Attacks  
+Bingxu Mu, Zhenxing Niu, Le Wang, Xue Wang, Qiguang Miao, Rong Jin, Gang Hua  
+[[paper](http://arxiv.org/abs/2202.06312)] [[code]()]  
+
+
++ Color Backdoor: A Robust Poisoning Attack in Color Space  
+Wenbo Jiang, Hongwei Li, Guowen Xu, Tianwei Zhang  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_Color_Backdoor_A_Robust_Poisoning_Attack_in_Color_Space_CVPR_2023_paper.pdf)] [[code]()]  
+
+
++ Defending Against Patch-Based Backdoor Attacks on Self-Supervised Learning  
+Ajinkya Tejankar, Maziar Sanjabi, Qifan Wang, Sinong Wang, Hamed Firooz, Hamed Pirsiavash, Liang Tan  
+[[paper](http://arxiv.org/abs/2304.01482)] [[code]()]  
+
+
++ How to Backdoor Diffusion Models?  
+Sheng-Yen Chou, Pin-Yu Chen, Tsung-Yi Ho  
+[[paper](http://arxiv.org/abs/2212.05400)] [[code]()]  
+
+
++ Backdoor Defense via Deconfounded Representation Learning  
+Zaixi Zhang, Qi Liu, Zhicai Wang, Zepu Lu, Qingyong Hu  
+[[paper](http://arxiv.org/abs/2303.06818)] [[code]()]  
+
+
++ Backdoor Cleansing With Unlabeled Data  
+Lu Pang, Tao Sun, Haibin Ling, Chao Chen  
+[[paper](http://arxiv.org/abs/2211.12044)] [[code]()]  
+
+
++ MEDIC: Remove Model Backdoors via Importance Driven Cloning  
+Qiuling Xu, Guanhong Tao, Jean Honorio, Yingqi Liu, Shengwei An, Guangyu Shen, Siyuan Cheng, Xiangyu Zhang  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Xu_MEDIC_Remove_Model_Backdoors_via_Importance_Driven_Cloning_CVPR_2023_paper.pdf)] [[code]()]   
+
+
++ Architectural Backdoors in Neural Networks  
+Mikel Bober-Irizar, Ilia Shumailov, Yiren Zhao, Robert Mullins, Nicolas Papernot  
+[[paper](http://arxiv.org/abs/2206.07840)] [[code]()] 
+
+
++ Detecting Backdoors in Pre-Trained Encoders  
+Shiwei Feng, Guanhong Tao, Siyuan Cheng, Guangyu Shen, Xiangzhe Xu, Yingqi Liu, Kaiyuan Zhang, Shiqing Ma, Xiangyu Zhang  
+[[paper](http://arxiv.org/abs/2303.15180)] [[code]()] 
+
+
++ The Dark Side of Dynamic Routing Neural Networks: Towards Efficiency Backdoor Injection  
+Simin Chen, Hanlin Chen, Mirazul Haque, Cong Liu, Wei Yang  
+[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_The_Dark_Side_of_Dynamic_Routing_Neural_Networks_Towards_Efficiency_CVPR_2023_paper.pdf)] [[code]()] 
+
+
++ Backdoor Defense via Adaptively Splitting Poisoned Dataset  
+Kuofeng Gao, Yang Bai, Jindong Gu, Yong Yang, Shu-Tao Xia  
+[[paper](http://arxiv.org/abs/2303.12993)] [[code]()] 
+
+
++ Detecting Backdoors During the Inference Stage Based on Corruption Robustness Consistency  
+Xiaogeng Liu, Minghui Li, Haoyu Wang, Shengshan Hu, Dengpan Ye, Hai Jin, Libing Wu, Chaowei Xiao  
+[[paper](http://arxiv.org/abs/2303.18191)] [[code]()] 
+
+
+
 ### NIPS 2022
 
 + BackdoorBench: A Comprehensive Benchmark of Backdoor Learning         
@@ -485,11 +736,32 @@ Li, Yuezun and Li, Yiming and Wu, Baoyuan and Li, Longkang and He, Ran and Lyu, 
 [[paper]()] [[code](https://github.com/SCLBD/BackdoorBench)] 
 
 
+### EMNLP 2021
+
++ Backdoor Attacks on Pre-trained Models by Layerwise Weight Poisoning    
+Linyang Li, Demin Song, Xiaonan Li, Jiehang Zeng, Ruotian Ma, Xipeng Qiu  
+[[paper](https://arxiv.org/abs/2108.13888)] [[code]()] 
+
+
+### CCS 2021
+
++ Backdoor Pre-trained Models Can Transfer to All    
+Lujia Shen, Shouling Ji, Xuhong Zhang  
+[[paper](https://dl.acm.org/doi/pdf/10.1145/3460120.3485370)] [[code]()] 
+
 ### CVPR 2021
 
 + Black-box Detection of Backdoor Attacks with Limited Information and Data      
 Yinpeng Dong, Xiao Yang, Zhijie Deng, Tianyu Pang, Zihao Xiao, Hang Su, Jun Zhu    
 [[paper](https://arxiv.org/abs/2103.13127#)] [[code]()] 
+
+
+### IEEE Access 2019
+
++ BadNets: Evaluating Backdooring Attacks on Deep Neural Networks      
+TIANYU GU, KANG LIU, BRENDAN DOLAN-GAVITT, SIDDHARTH GARG    
+[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8685687)] [[code](https://github.com/verazuo/badnets-pytorch)] 
+
 
 
 ## <span id="jump4">Image_Adversarial_Survey</span>
