@@ -29,7 +29,7 @@ Yuanpeng Tu, Boshen Zhang, Yuxi Li, Liang Liu, Jian Li, Jiangning Zhang, Yabiao 
 
 
 + RIATIG: Reliable and Imperceptible Adversarial Text-to-Image Generation With Natural Prompts  
-Han Liu, Yuhao Wu, Shixuan Zhai, Bo Yuan, Ning Zhang
+Han Liu, Yuhao Wu, Shixuan Zhai, Bo Yuan, Ning Zhang  
 [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_RIATIG_Reliable_and_Imperceptible_Adversarial_Text-to-Image_Generation_With_Natural_Prompts_CVPR_2023_paper.pdf)] [[code]()]  
 
 
